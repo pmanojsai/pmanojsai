@@ -208,7 +208,7 @@ Blockchain Credential Verification Platform
 https://puneethmanojsai.vercel.app
 
 💼 LinkedIn  
-https://linkedin.com/in/p-puneeth-manoj-sai
+https://linkedin.com/in/p-puneeth-manoj-sai](https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/
 
 📧 Email  
 2320090028@klh.edu.in
