@@ -15,11 +15,9 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 <a href="https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
 </a>
-<a href="mailto:2320090028@klh.edu.in">
+<a href="mailto:2320090028@klh.edu.in?subject=Contact%20from%20GitHub%20Profile">
   <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
 </a>
-
-
 
 </div>
 
@@ -42,26 +40,31 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ## 💼 Tech Stack
 
 ### 🚀 Frontend
+
 <p>
 <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,bootstrap" />
 </p>
 
 ### ⚙️ Backend
+
 <p>
 <img src="https://skillicons.dev/icons?i=nodejs,express,python,flask" />
 </p>
 
 ### 🗄️ Database
+
 <p>
 <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,firebase" />
 </p>
 
 ### ☁️ Cloud & DevOps
+
 <p>
 <img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,vercel" />
 </p>
 
 ### 🔐 Web3
+
 <p>
 <img src="https://skillicons.dev/icons?i=solidity" />
 </p>
@@ -77,6 +80,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ## 🚀 Featured Projects
 
 ### 🏥 Ojas Raksha
+
 > DPDP-Compliant Blockchain Healthcare Platform
 
 `React.js` `Node.js` `Solidity` `MetaMask` `IPFS` `Role-Based Access Control` `Provisional Patent Filed`
@@ -84,6 +88,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ---
 
 ### 🌐 IEEE Student Branch Website
+
 > Official IEEE Student Branch Website
 
 `React.js` `Tailwind CSS` `GitHub Actions` `Vercel` `Responsive UI` `Production Deployment`
@@ -91,6 +96,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ---
 
 ### 🎓 AI-CQCom Conference Platform
+
 > International Conference Management Platform
 
 `React.js` `Node.js` `MongoDB` `REST APIs` `Responsive Design`
@@ -98,6 +104,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ---
 
 ### ⛓️ CollabChain
+
 > Blockchain Credential Verification Platform
 
 `React` `Algorand` `Smart Contracts` `IPFS` `Wallet Integration`
@@ -106,17 +113,28 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 ## 🏆 Certifications
 
-✅ AWS Certified Cloud Practitioner
-✅ MongoDB Certified Associate Developer
-✅ Salesforce Agentforce Specialist
+- ✅ AWS Certified Cloud Practitioner
+- ✅ MongoDB Certified Associate Developer
+- ✅ Salesforce Agentforce Specialist
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Puneeth's GitHub Stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight&hide_border=true" alt="Puneeth's Top Languages" />
+
+<img
+  height="180em"
+  src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+  alt="Puneeth's GitHub Stats"
+/>
+
+<img
+  height="180em"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight&hide_border=true"
+  alt="Puneeth's Top Languages"
+/>
+
 </p>
 
 ---
@@ -124,7 +142,12 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ## 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com/?user=pmanojsai&theme=tokyonight&hide_border=true" alt="Puneeth's GitHub Streak" />
+
+<img
+  src="https://streak-stats.demolab.com/?user=pmanojsai&theme=tokyonight&hide_border=true"
+  alt="Puneeth's GitHub Streak"
+/>
+
 </p>
 
 ---
@@ -132,7 +155,12 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ## 📅 GitHub Contribution Calendar
 
 <p align="center">
-<img src="https://ghchart.rzuo.co/pmanojsai" alt="Puneeth's GitHub Contribution Calendar" />
+
+<img
+  src="https://ghchart.rzuo.co/pmanojsai"
+  alt="Puneeth's GitHub Contribution Calendar"
+/>
+
 </p>
 
 ---
@@ -140,7 +168,12 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 ## 📈 GitHub Activity Graph
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night&hide_border=true" alt="Puneeth's GitHub Activity Graph" />
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night&hide_border=true"
+  alt="Puneeth's GitHub Activity Graph"
+/>
+
 </p>
 
 ---
@@ -170,7 +203,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 - 🌐 **Portfolio:** [puneethmanojsai.vercel.app](https://puneethmanojsai.vercel.app)
 - 💼 **LinkedIn:** [p-puneeth-manoj-sai](https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/)
-- 📧 **Email:** [2320090028@klh.edu.in](mailto:2320090028@klh.edu.in)
+- 📧 **Email:** [2320090028@klh.edu.in](mailto:2320090028@klh.edu.in?subject=Contact%20from%20GitHub%20Profile)
 
 ---
 
