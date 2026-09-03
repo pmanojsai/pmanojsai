@@ -9,13 +9,16 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 <a href="https://puneethmanojsai.vercel.app">
   <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit-blue?style=for-the-badge" />
 </a>
+
 <a href="https://github.com/pmanojsai">
   <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github" />
 </a>
+
 <a href="https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
 </a>
-<a href="mailto:2320090028@klh.edu.in?subject=Contact%20from%20GitHub%20Profile">
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=2320090028csit@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
 </a>
 
@@ -203,7 +206,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 - 🌐 **Portfolio:** [puneethmanojsai.vercel.app](https://puneethmanojsai.vercel.app)
 - 💼 **LinkedIn:** [p-puneeth-manoj-sai](https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/)
-- 📧 **Email:** [2320090028@klh.edu.in](mailto:2320090028@klh.edu.in?subject=Contact%20from%20GitHub%20Profile)
+- 📧 **Email:** [2320090028csit@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=2320090028csit@gmail.com)
 
 ---
 
