@@ -148,15 +148,8 @@ Blockchain Credential Verification Platform
 <p align="center">
 
 <img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight&count_private=true"
-  alt="Puneeth's GitHub Stats"
-/>
-
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight"
-  alt="Puneeth's Top Languages"
+  src="./github-stats.svg"
+  alt="Puneeth's GitHub Statistics"
 />
 
 </p>
@@ -176,13 +169,26 @@ Blockchain Credential Verification Platform
 
 ---
 
-# 📈 Activity Graph
+# 📅 GitHub Contributions
 
 <p align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night"
-  alt="Puneeth's GitHub Activity Graph"
+  src="./github-calendar.svg"
+  alt="Puneeth's GitHub Contribution Calendar"
+/>
+
+</p>
+
+---
+
+# 📈 GitHub Activity
+
+<p align="center">
+
+<img
+  src="./github-activity.svg"
+  alt="Puneeth's GitHub Activity"
 />
 
 </p>
