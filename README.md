@@ -72,11 +72,11 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 ### 🔐 Web3
 
-* Solidity
-* MetaMask
-* IPFS
-* Web3.js
-* Algorand SDK
+- Solidity
+- MetaMask
+- IPFS
+- Web3.js
+- Algorand SDK
 
 ---
 
@@ -86,13 +86,13 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 > DPDP-Compliant Blockchain Healthcare Platform
 
-* React.js
-* Node.js
-* Solidity
-* MetaMask
-* IPFS
-* Role-Based Access Control
-* Provisional Patent Filed
+- React.js
+- Node.js
+- Solidity
+- MetaMask
+- IPFS
+- Role-Based Access Control
+- Provisional Patent Filed
 
 ---
 
@@ -100,12 +100,12 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 Official IEEE Student Branch Website
 
-* React.js
-* Tailwind CSS
-* GitHub Actions
-* Vercel
-* Responsive UI
-* Production Deployment
+- React.js
+- Tailwind CSS
+- GitHub Actions
+- Vercel
+- Responsive UI
+- Production Deployment
 
 ---
 
@@ -113,11 +113,11 @@ Official IEEE Student Branch Website
 
 International Conference Management Platform
 
-* React.js
-* Node.js
-* MongoDB
-* REST APIs
-* Responsive Design
+- React.js
+- Node.js
+- MongoDB
+- REST APIs
+- Responsive Design
 
 ---
 
@@ -125,11 +125,11 @@ International Conference Management Platform
 
 Blockchain Credential Verification Platform
 
-* React
-* Algorand
-* Smart Contracts
-* IPFS
-* Wallet Integration
+- React
+- Algorand
+- Smart Contracts
+- IPFS
+- Wallet Integration
 
 ---
 
@@ -147,9 +147,17 @@ Blockchain Credential Verification Platform
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight&count_private=true" />
+<img
+  height="170"
+  src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight&count_private=true"
+  alt="Puneeth's GitHub Stats"
+/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight" />
+<img
+  height="170"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight"
+  alt="Puneeth's Top Languages"
+/>
 
 </p>
 
@@ -159,7 +167,10 @@ Blockchain Credential Verification Platform
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com/?user=pmanojsai&theme=tokyonight" />
+<img
+  src="https://streak-stats.demolab.com/?user=pmanojsai&theme=tokyonight"
+  alt="Puneeth's GitHub Streak"
+/>
 
 </p>
 
@@ -169,7 +180,10 @@ Blockchain Credential Verification Platform
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night" />
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night"
+  alt="Puneeth's GitHub Activity Graph"
+/>
 
 </p>
 
@@ -177,12 +191,12 @@ Blockchain Credential Verification Platform
 
 # 🌱 Currently Learning
 
-* Advanced React Patterns
-* System Design
-* AWS Solutions Architect
-* Cloud Security
-* DevSecOps
-* Secure Software Development
+- Advanced React Patterns
+- System Design
+- AWS Solutions Architect
+- Cloud Security
+- DevSecOps
+- Secure Software Development
 
 ---
 
@@ -197,7 +211,6 @@ Blockchain Credential Verification Platform
 ✅ Master Cloud Security
 
 ✅ Earn AWS Solutions Architect Certification
-
 
 ---
 
