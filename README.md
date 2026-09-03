@@ -4,9 +4,7 @@
 
 ### Frontend & Full Stack Engineer | React • Next.js • TypeScript • Node.js
 
-<p>
 Building scalable web applications, modern user interfaces, and Web3-powered solutions.
-</p>
 
 <a href="https://puneethmanojsai.vercel.app">
   <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit-blue?style=for-the-badge" />
@@ -17,60 +15,56 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 <a href="https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
 </a>
+<a href="mailto:2320090028@klh.edu.in">
+  <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
+</a>
+
+![Profile Views](https://komarev.com/ghpvc/?username=pmanojsai&color=blueviolet&style=for-the-badge)
 
 </div>
 
 ---
 
-# 🚀 About Me
+## 🚀 About Me
 
-🎓 B.Tech Computer Science & Information Technology Student
-
-💻 Frontend & Full Stack Developer specializing in modern web technologies
-
-🌐 Built and deployed multiple production-ready web applications
-
-⚛️ Specialized in React.js, Next.js, Node.js & TypeScript
-
-🔐 Web3 Developer with Solidity, MetaMask & IPFS experience
-
-📄 Provisional Patent Filed – Blockchain Healthcare Platform
-
-🏆 AWS Certified Cloud Practitioner
-
-👨‍💼 Tech Lead @ Algorand Club
-
-🌍 Webmaster @ IEEE Student Branch
+- 🎓 B.Tech Computer Science & Information Technology Student
+- 💻 Frontend & Full Stack Developer specializing in modern web technologies
+- 🌐 Built and deployed multiple production-ready web applications
+- ⚛️ Specialized in React.js, Next.js, Node.js & TypeScript
+- 🔐 Web3 Developer with Solidity, MetaMask & IPFS experience
+- 📄 Provisional Patent Filed – Blockchain Healthcare Platform
+- 🏆 AWS Certified Cloud Practitioner
+- 👨‍💼 Tech Lead @ Algorand Club
+- 🌍 Webmaster @ IEEE Student Branch
 
 ---
 
-# 💼 Tech Stack
+## 💼 Tech Stack
 
 ### 🚀 Frontend
-
 <p>
 <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,bootstrap" />
 </p>
 
 ### ⚙️ Backend
-
 <p>
 <img src="https://skillicons.dev/icons?i=nodejs,express,python,flask" />
 </p>
 
 ### 🗄️ Database
-
 <p>
 <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,firebase" />
 </p>
 
 ### ☁️ Cloud & DevOps
-
 <p>
 <img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,vercel" />
 </p>
 
 ### 🔐 Web3
+<p>
+<img src="https://skillicons.dev/icons?i=solidity" />
+</p>
 
 - Solidity
 - MetaMask
@@ -80,122 +74,78 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
-## 🏥 Ojas Raksha
-
+### 🏥 Ojas Raksha
 > DPDP-Compliant Blockchain Healthcare Platform
 
-- React.js
-- Node.js
-- Solidity
-- MetaMask
-- IPFS
-- Role-Based Access Control
-- Provisional Patent Filed
+`React.js` `Node.js` `Solidity` `MetaMask` `IPFS` `Role-Based Access Control` `Provisional Patent Filed`
 
 ---
 
-## 🌐 IEEE Student Branch Website
+### 🌐 IEEE Student Branch Website
+> Official IEEE Student Branch Website
 
-Official IEEE Student Branch Website
-
-- React.js
-- Tailwind CSS
-- GitHub Actions
-- Vercel
-- Responsive UI
-- Production Deployment
+`React.js` `Tailwind CSS` `GitHub Actions` `Vercel` `Responsive UI` `Production Deployment`
 
 ---
 
-## 🎓 AI-CQCom Conference Platform
+### 🎓 AI-CQCom Conference Platform
+> International Conference Management Platform
 
-International Conference Management Platform
-
-- React.js
-- Node.js
-- MongoDB
-- REST APIs
-- Responsive Design
+`React.js` `Node.js` `MongoDB` `REST APIs` `Responsive Design`
 
 ---
 
-## ⛓️ CollabChain
+### ⛓️ CollabChain
+> Blockchain Credential Verification Platform
 
-Blockchain Credential Verification Platform
-
-- React
-- Algorand
-- Smart Contracts
-- IPFS
-- Wallet Integration
+`React` `Algorand` `Smart Contracts` `IPFS` `Wallet Integration`
 
 ---
 
-# 🏆 Certifications
+## 🏆 Certifications
 
 ✅ AWS Certified Cloud Practitioner
-
 ✅ MongoDB Certified Associate Developer
-
 ✅ Salesforce Agentforce Specialist
 
 ---
 
-# 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-
-<img
-  src="./github-stats.svg"
-  alt="Puneeth's GitHub Statistics"
-/>
-
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Puneeth's GitHub Stats" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight&hide_border=true" alt="Puneeth's Top Languages" />
 </p>
 
 ---
 
-# 🔥 GitHub Streak
+## 🔥 GitHub Streak
 
 <p align="center">
-
-<img
-  src="https://streak-stats.demolab.com/?user=pmanojsai&theme=tokyonight"
-  alt="Puneeth's GitHub Streak"
-/>
-
+<img src="https://streak-stats.demolab.com/?user=pmanojsai&theme=tokyonight&hide_border=true" alt="Puneeth's GitHub Streak" />
 </p>
 
 ---
 
-# 📅 GitHub Contributions
+## 📅 GitHub Contribution Calendar
 
 <p align="center">
-
-<img
-  src="./github-calendar.svg"
-  alt="Puneeth's GitHub Contribution Calendar"
-/>
-
+<img src="https://ghchart.rzuo.co/pmanojsai" alt="Puneeth's GitHub Contribution Calendar" />
 </p>
 
 ---
 
-# 📈 GitHub Activity
+## 📈 GitHub Activity Graph
 
 <p align="center">
-
-<img
-  src="./github-activity.svg"
-  alt="Puneeth's GitHub Activity"
-/>
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night&hide_border=true" alt="Puneeth's GitHub Activity Graph" />
 </p>
 
 ---
 
-# 🌱 Currently Learning
+## 🌱 Currently Learning
 
 - Advanced React Patterns
 - System Design
@@ -206,30 +156,21 @@ Blockchain Credential Verification Platform
 
 ---
 
-# 🎯 2026 Goals
+## 🎯 2026 Goals
 
-✅ Build 10+ Production Applications
-
-✅ Publish Research Papers
-
-✅ Contribute to Open Source
-
-✅ Master Cloud Security
-
-✅ Earn AWS Solutions Architect Certification
+- [ ] Build 10+ Production Applications
+- [ ] Publish Research Papers
+- [ ] Contribute to Open Source
+- [ ] Master Cloud Security
+- [ ] Earn AWS Solutions Architect Certification
 
 ---
 
-# 📫 Connect With Me
+## 📫 Connect With Me
 
-🌐 Portfolio  
-https://puneethmanojsai.vercel.app
-
-💼 LinkedIn  
-https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/
-
-📧 Email  
-[2320090028@klh.edu.in](mailto:2320090028@klh.edu.in)
+- 🌐 **Portfolio:** [puneethmanojsai.vercel.app](https://puneethmanojsai.vercel.app)
+- 💼 **LinkedIn:** [p-puneeth-manoj-sai](https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/)
+- 📧 **Email:** [2320090028@klh.edu.in](mailto:2320090028@klh.edu.in)
 
 ---
 
