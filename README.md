@@ -14,7 +14,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 <a href="https://github.com/pmanojsai">
   <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github" />
 </a>
-<a href="https://linkedin.com/in/p-puneeth-manoj-sai">
+<a href="https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
 </a>
 
@@ -58,13 +58,13 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 <img src="https://skillicons.dev/icons?i=nodejs,express,python,flask" />
 </p>
 
-### 🗄 Database
+### 🗄️ Database
 
 <p>
 <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,firebase" />
 </p>
 
-### ☁ Cloud & DevOps
+### ☁️ Cloud & DevOps
 
 <p>
 <img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,vercel" />
@@ -72,11 +72,11 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 ### 🔐 Web3
 
-- Solidity
-- MetaMask
-- IPFS
-- Web3.js
-- Algorand SDK
+* Solidity
+* MetaMask
+* IPFS
+* Web3.js
+* Algorand SDK
 
 ---
 
@@ -86,13 +86,13 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 > DPDP-Compliant Blockchain Healthcare Platform
 
-- React.js
-- Node.js
-- Solidity
-- MetaMask
-- IPFS
-- Role-Based Access Control
-- Patent Filed
+* React.js
+* Node.js
+* Solidity
+* MetaMask
+* IPFS
+* Role-Based Access Control
+* Provisional Patent Filed
 
 ---
 
@@ -100,12 +100,12 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
 
 Official IEEE Student Branch Website
 
-- React.js
-- Tailwind CSS
-- GitHub Actions
-- Vercel
-- Responsive UI
-- Production Deployment
+* React.js
+* Tailwind CSS
+* GitHub Actions
+* Vercel
+* Responsive UI
+* Production Deployment
 
 ---
 
@@ -113,23 +113,23 @@ Official IEEE Student Branch Website
 
 International Conference Management Platform
 
-- React.js
-- Node.js
-- MongoDB
-- REST APIs
-- Responsive Design
+* React.js
+* Node.js
+* MongoDB
+* REST APIs
+* Responsive Design
 
 ---
 
-## ⛓ CollabChain
+## ⛓️ CollabChain
 
 Blockchain Credential Verification Platform
 
-- React
-- Algorand
-- Smart Contracts
-- IPFS
-- Wallet Integration
+* React
+* Algorand
+* Smart Contracts
+* IPFS
+* Wallet Integration
 
 ---
 
@@ -147,9 +147,9 @@ Blockchain Credential Verification Platform
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight" />
 
 </p>
 
@@ -159,7 +159,7 @@ Blockchain Credential Verification Platform
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pmanojsai&theme=tokyonight"/>
+<img src="https://streak-stats.demolab.com/?user=pmanojsai&theme=tokyonight" />
 
 </p>
 
@@ -169,7 +169,7 @@ Blockchain Credential Verification Platform
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pmanojsai&theme=tokyo-night" />
 
 </p>
 
@@ -177,12 +177,12 @@ Blockchain Credential Verification Platform
 
 # 🌱 Currently Learning
 
-- Advanced React Patterns
-- System Design
-- AWS Solutions Architect
-- Cloud Security
-- DevSecOps
-- Secure Software Development
+* Advanced React Patterns
+* System Design
+* AWS Solutions Architect
+* Cloud Security
+* DevSecOps
+* Secure Software Development
 
 ---
 
@@ -204,14 +204,14 @@ Blockchain Credential Verification Platform
 
 # 📫 Connect With Me
 
-🌐 Portfolio  
+🌐 Portfolio
 https://puneethmanojsai.vercel.app
 
-💼 LinkedIn  
+💼 LinkedIn
 https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/
 
-📧 Email  
-2320090028@klh.edu.in
+📧 Email
+[2320090028@klh.edu.in](mailto:2320090028@klh.edu.in)
 
 ---
 
