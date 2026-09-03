@@ -19,7 +19,7 @@ Building scalable web applications, modern user interfaces, and Web3-powered sol
   <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
 </a>
 
-![Profile Views](https://komarev.com/ghpvc/?username=pmanojsai&color=blueviolet&style=for-the-badge)
+
 
 </div>
 
