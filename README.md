@@ -147,7 +147,7 @@ Blockchain Credential Verification Platform
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=tokyonight&count_private=true" />
 
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=tokyonight" />
 
@@ -198,19 +198,18 @@ Blockchain Credential Verification Platform
 
 ✅ Earn AWS Solutions Architect Certification
 
-✅ Pursue M.S. in Cybersecurity (Germany)
 
 ---
 
 # 📫 Connect With Me
 
-🌐 Portfolio
+🌐 Portfolio  
 https://puneethmanojsai.vercel.app
 
-💼 LinkedIn
+💼 LinkedIn  
 https://www.linkedin.com/in/p-puneeth-manoj-sai-978758289/
 
-📧 Email
+📧 Email  
 [2320090028@klh.edu.in](mailto:2320090028@klh.edu.in)
 
 ---
