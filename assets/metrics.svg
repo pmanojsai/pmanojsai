@@ -5,24 +5,24 @@
 <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">IEEE branch website</text>
 <rect x="20" y="146" width="140" height="4" rx="2" fill="#1e293b"/><rect x="20" y="146" width="40" height="4" rx="2" fill="#38bdf8"><animate attributeName="width" values="20;140;20" dur="5.0s" repeatCount="indefinite"/></rect></g><g transform="translate(204,0)"><rect width="180" height="170" rx="16" fill="url(#bg)" stroke="#22d3ee" stroke-opacity=".5"/>
 <circle cx="150" cy="30" r="46" fill="#22d3ee" opacity=".10" clip-path="url(#k1)"><animate attributeName="r" values="40;54;40" dur="4.5s" repeatCount="indefinite"/></circle>
-<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g1)">10+</text>
-<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">role-based dashboards</text>
-<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Ojas Raksha</text>
+<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g1)">300+</text>
+<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">GitHub commits</text>
+<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">high-velocity builder</text>
 <rect x="20" y="146" width="140" height="4" rx="2" fill="#1e293b"/><rect x="20" y="146" width="40" height="4" rx="2" fill="#22d3ee"><animate attributeName="width" values="20;140;20" dur="5.4s" repeatCount="indefinite"/></rect></g><g transform="translate(408,0)"><rect width="180" height="170" rx="16" fill="url(#bg)" stroke="#34d399" stroke-opacity=".5"/>
 <circle cx="150" cy="30" r="46" fill="#34d399" opacity=".10" clip-path="url(#k2)"><animate attributeName="r" values="40;54;40" dur="5.0s" repeatCount="indefinite"/></circle>
-<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g2)">50%</text>
-<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">faster page load</text>
-<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">code splitting &amp; assets</text>
+<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g2)">10+</text>
+<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">role dashboards</text>
+<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">Ojas Raksha dApp</text>
 <rect x="20" y="146" width="140" height="4" rx="2" fill="#1e293b"/><rect x="20" y="146" width="40" height="4" rx="2" fill="#34d399"><animate attributeName="width" values="20;140;20" dur="5.8s" repeatCount="indefinite"/></rect></g><g transform="translate(612,0)"><rect width="180" height="170" rx="16" fill="url(#bg)" stroke="#f59e0b" stroke-opacity=".5"/>
 <circle cx="150" cy="30" r="46" fill="#f59e0b" opacity=".10" clip-path="url(#k3)"><animate attributeName="r" values="40;54;40" dur="5.5s" repeatCount="indefinite"/></circle>
-<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g3)">+40%</text>
-<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">club participation</text>
-<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">5+ Web3 workshops</text>
+<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g3)">50%</text>
+<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">faster page load</text>
+<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">performance &amp; CI/CD</text>
 <rect x="20" y="146" width="140" height="4" rx="2" fill="#1e293b"/><rect x="20" y="146" width="40" height="4" rx="2" fill="#f59e0b"><animate attributeName="width" values="20;140;20" dur="6.2s" repeatCount="indefinite"/></rect></g><g transform="translate(816,0)"><rect width="180" height="170" rx="16" fill="url(#bg)" stroke="#a78bfa" stroke-opacity=".5"/>
 <circle cx="150" cy="30" r="46" fill="#a78bfa" opacity=".10" clip-path="url(#k4)"><animate attributeName="r" values="40;54;40" dur="6.0s" repeatCount="indefinite"/></circle>
-<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g4)">10</text>
-<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">engineers mentored</text>
-<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">dApp architecture &amp; IPFS</text>
+<text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g4)">4+</text>
+<text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">certifications</text>
+<text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#94a3b8">AWS · Mongo · SF</text>
 <rect x="20" y="146" width="140" height="4" rx="2" fill="#1e293b"/><rect x="20" y="146" width="40" height="4" rx="2" fill="#a78bfa"><animate attributeName="width" values="20;140;20" dur="6.6s" repeatCount="indefinite"/></rect></g><g transform="translate(1020,0)"><rect width="180" height="170" rx="16" fill="url(#bg)" stroke="#f472b6" stroke-opacity=".5"/>
 <circle cx="150" cy="30" r="46" fill="#f472b6" opacity=".10" clip-path="url(#k5)"><animate attributeName="r" values="40;54;40" dur="6.5s" repeatCount="indefinite"/></circle>
 <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="url(#g5)">1</text>
