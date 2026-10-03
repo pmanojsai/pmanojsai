@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="Browser window: https://puneethmanojsai.vercel.app">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
+<path d="M0 52 V16 Q0 0 16 0 H1184 Q1200 0 1200 16 V52 Z" fill="#0f172a"/>
+<circle cx="28" cy="26" r="7" fill="#f87171"/><circle cx="52" cy="26" r="7" fill="#fbbf24"/><circle cx="76" cy="26" r="7" fill="#34d399"/>
+<rect x="110" y="10" width="980" height="32" rx="16" fill="#1e293b"/>
+<path d="M134 22 a5 5 0 0 1 10 0 v3 h-10z M131 25 h16 v10 h-16z" fill="#34d399" transform="translate(0,-1) scale(1)" opacity=".9"/>
+<text x="160" y="31" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#cbd5e1">https://puneethmanojsai.vercel.app</text>
+<text x="1160" y="31" text-anchor="end" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="#22d3ee">LIVE</text><circle cx="1122" cy="26" r="4" fill="#34d399"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<rect x="0" y="49" width="1200" height="3" fill="#1e293b"/><rect x="-300" y="49" width="300" height="3" fill="url(#l)"><animate attributeName="x" values="-300;1200" dur="3s" repeatCount="indefinite"/></rect></svg>
