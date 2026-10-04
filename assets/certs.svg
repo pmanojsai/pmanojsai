@@ -7,6 +7,30 @@
   <filter id="cert-sh" x="-10%" y="-10%" width="120%" height="130%">
     <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
   </filter>
+
+  <!-- AWS Logo Def -->
+  <g id="logo-aws">
+    <g fill="#232F3E">
+      <path d="M11.2 15.9c-1.1 0-2-.3-2.7-.8-.7-.5-1-1.3-1-2.2 0-1 .4-1.8 1-2.3.6-.5 1.6-.8 2.7-.8 1 0 1.8.1 2.5.5v-.8c0-.7-.2-1.2-.5-1.5-.4-.3-.9-.5-1.7-.5-.7 0-1.4.1-2 .4-.3.1-.6.2-.7.2-.2 0-.3-.1-.4-.3l-.6-1.1c-.1-.2 0-.3.1-.5.1-.1.4-.2.7-.3 1-.4 2.1-.6 3.3-.6 1.3 0 2.4.3 3.1 1.1.7.7 1.1 1.7 1.1 3v6.1c0 .3.1.5.2.6.1.1.3.1.6.1.1 0 .3 0 .4 0 .1 0 .2 0 .3.1.1.1.1.2.1.4v1c0 .2-.1.3-.2.4-.3.2-.7.3-1.2.3-.6 0-1.1-.2-1.5-.5-.3-.4-.5-.9-.6-1.5-.8 1.1-1.9 1.7-3.4 1.7zm.5-2c.8 0 1.6-.3 2.1-.9.5-.6.8-1.3.8-2.2v-.7c-.6-.3-1.3-.4-2-.4-.7 0-1.3.1-1.7.5-.4.3-.6.8-.6 1.4 0 .6.2 1 .5 1.4.4.6.8.9 1.4.9z"/>
+      <path d="M26.1 15.7c-.2 0-.4-.1-.5-.3L22.2 7.7c-.1-.2 0-.4.2-.5.1 0 .2 0 .3 0h1.6c.2 0 .4.1.5.3l2 5.6 1.9-5.6c.1-.2.2-.3.5-.3h1.4c.2 0 .4.1.5.3l1.9 5.6 2-5.6c.1-.2.3-.3.5-.3h1.6c.2 0 .4.1.5.2.1.1.1.3 0 .5L34.6 15.4c-.1.2-.3.3-.5.3h-1.4c-.2 0-.4-.1-.5-.3L30.2 9.7l-1.9 5.6c-.1.2-.3.3-.5.3h-1.7z"/>
+      <path d="M42.2 15.9c-1.2 0-2.3-.2-3.3-.7-.3-.1-.4-.3-.4-.5 0-.1.1-.3.2-.4l.8-1c.1-.1.3-.2.5-.1.1 0 .3.1.5.1.6.3 1.2.4 1.8.4.5 0 1-.1 1.3-.3.3-.2.4-.5.4-.9 0-.3-.1-.5-.4-.8-.2-.2-.7-.4-1.3-.7-1-.4-1.8-.8-2.3-1.4-.5-.5-.7-1.2-.7-1.9 0-.9.3-1.7 1-2.3.7-.6 1.6-.9 2.8-.9 1 0 1.9.2 2.8.5.3.1.4.2.4.4 0 .1-.1.3-.2.4l-.8.9c-.1.1-.3.2-.4.1-.1 0-.3-.1-.4-.1-.5-.2-1-.3-1.5-.3-.5 0-.9.1-1.2.3-.3.2-.4.4-.4.8 0 .2.1.5.4.7.2.2.7.4 1.4.7 1 .4 1.8.8 2.3 1.3.5.5.7 1.2.7 2 0 1-.3 1.8-1 2.3-.7.7-1.7 1.1-2.9 1.1z"/>
+    </g>
+    <path d="M42.4 22.7c-4.4 3.2-10.9 5-16.5 5-7.8 0-14.8-3-20.1-7.9-.4-.4 0-1 .5-.6 5.1 3.2 11.7 5.2 18.5 5.2 5.3 0 11.4-1.5 16.8-4.7.7-.5 1.5.4.8 1z" fill="#FF9900"/>
+    <path d="M44.3 20.4c-.5-.7-3.7-.8-5.1-.2-.2.1-.1-.2 0-.4 1.5-1 5.3-.7 5.7-.1.4.6.1 4.4-1.3 5.6-.2.1-.4 0-.3-.1.6-1.3 1.5-4.1.9-4.8z" fill="#FF9900"/>
+  </g>
+
+  <!-- MongoDB Logo Def -->
+  <g id="logo-mongodb">
+    <path d="M24.9 1.0C23.6 2.4 16.8 9.6 16.3 19.7c-.4 8.8 4.1 15.9 7.4 20.3.9 1.2 1.1 1.5 1.2 3.3 0 .5.1 1.1.1 1.6 0 .2.2.3.4.3.2 0 .3-.2.3-.4 0-.8-.2-2.4.2-3.2 3.5-7.3 8.2-13.5 7.8-21.9-.4-8.8-6.8-16.4-8.3-18.8z" fill="#00ED64"/>
+    <path d="M25.0 1.0c-.1 0-.3 0-.4.1-1.5 2.4-7.9 10-8.2 18.5-.4 8.3 4.3 14.5 7.8 21.9.4.8.2 2.4.2 3.2 0 .2.1.3.3.4.2 0 .4-.1.4-.3 0-.5-.1-1.1-.1-1.6-.1-1.8-.3-2.1-1.2-3.3-3.3-4.4-7.8-11.5-7.4-20.3.4-10.1 7.2-17.3 8.5-18.7.1 0 .1-.1.1-.1V1.0z" fill="#00684A"/>
+    <path d="M25.1 0.9c0 0-.1-.1-.2 0-.1 0-.1.1-.1.2-.1 3 .2 6.4.7 9.4.8 4.9 2.1 9.6 2.1 14.6 0 5.6-1.5 11-3.6 16.2-.1.2-.1.5 0 .8 0 .2.1.5.4.6.2.1.4.1.6 0 .2-.1.3-.3.4-.5 2.1-5.4 3.8-11.1 3.8-17.1 0-5.2-1.3-10.1-2.2-15.2-.5-3.2-.9-6.6-.8-9.8 0-.1 0-.3-.2-.4z" fill="#001E2B" opacity="0.3"/>
+  </g>
+
+  <!-- Salesforce Logo Def -->
+  <g id="logo-salesforce">
+    <path d="M21.1 5.1c2.3-2.7 5.8-4.5 9.7-4.5 6 0 11.1 4.2 12.4 9.8 2 1 3.6 2.7 4.3 4.9 1 2.8.7 5.8-.7 8.4-1.4 2.5-3.8 4.3-6.6 4.9-1 .2-1.9.3-2.9.3H12.2c-2.4 0-4.8-.8-6.6-2.4C3.2 24.6 1.7 22.2 1.3 19.6c-.4-2.6.3-5.3 1.9-7.5 1.6-2.1 4-3.5 6.7-3.8 1-.1 2.1 0 3.1.2 1.8-2 4.4-3.3 8-3.3z" fill="#00A1E0"/>
+    <path d="M14.2 17.3c-.3-.5-.4-1.1-.4-1.7 0-1.8 1.3-3.1 3.2-3.1 1.2 0 2.1.5 2.6 1.2l-1.2.9c-.3-.4-.8-.7-1.4-.7-.9 0-1.6.7-1.6 1.7 0 .9.6 1.6 1.6 1.6.6 0 1.1-.2 1.4-.7l1.2.9c-.6.8-1.5 1.3-2.6 1.3-1.1 0-2-.4-2.5-1.4zm7.7 1.3h-1.6v-7.5h1.6v7.5zm5.3-4.7c-.3-.2-.6-.3-1.1-.3-.8 0-1.4.5-1.4 1.3 0 .7.5 1 1.1 1.3l.6.2c1.2.4 1.9 1.1 1.9 2.3 0 1.4-1.2 2.4-2.8 2.4-1 0-1.8-.3-2.4-.9l.9-1c.4.4.9.7 1.4.7.8 0 1.3-.4 1.3-1.1 0-.7-.4-1-1.2-1.3l-.6-.2c-1.1-.4-1.8-1-1.8-2.2 0-1.4 1.1-2.4 2.7-2.4.8 0 1.6.2 2.1.7l-.7 1.2zm5 4.7h-1.6v-7.5h1.6v7.5zm4.2-2.1h2.7v1.4h-2.7v3.2h-1.6v-7.5h4.5v1.4h-2.9v2.2z" fill="#ffffff"/>
+  </g>
 </defs>
 <rect width="1200" height="330" rx="20" fill="url(#certs-bg)" stroke="#cbd5e1" stroke-width="1.5"/>
 
@@ -15,15 +39,20 @@
   <animateTransform attributeName="transform" type="translate" values="45,34;45,26;45,34" dur="5.0s" repeatCount="indefinite"/>
   <rect width="255" height="150" rx="16" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
   <rect width="255" height="4" rx="2" fill="#ea580c"/>
-  <g transform="translate(18,30)">
-    <path d="M28 0 L54 9 V34 C54 50 42 58 28 64 C14 58 2 50 2 34 V9 Z" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
-    <path d="M15 32 l9 10 l17 -20" fill="none" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Authentic AWS Logo -->
+  <g transform="translate(18,24) scale(1.15)">
+    <rect width="52" height="34" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1"/>
+    <use href="#logo-aws" x="3" y="3"/>
   </g>
-  <text x="92" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#ea580c" font-weight="800">AWS Certified</text>
-  <text x="92" y="68" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Cloud</text>
-  <text x="92" y="88" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Practitioner</text>
-  <rect x="20" y="108" width="215" height="1" fill="#e2e8f0"/>
-  <text x="20" y="132" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">Amazon Web Services</text>
+  
+  <text x="86" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#ea580c" font-weight="800">AWS Certified</text>
+  <text x="86" y="66" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#0f172a" font-weight="900">Cloud Practitioner</text>
+  <text x="86" y="84" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" font-weight="600">Foundational</text>
+  
+  <rect x="18" y="104" width="219" height="1" fill="#e2e8f0"/>
+  <text x="18" y="126" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#0369a1">✓ Verified Credential</text>
+  <text x="18" y="142" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#64748b">Amazon Web Services · 2024</text>
 </g>
 
 <!-- Card 2: AWS Solutions Architect -->
@@ -31,15 +60,20 @@
   <animateTransform attributeName="transform" type="translate" values="330,34;330,26;330,34" dur="5.6s" repeatCount="indefinite"/>
   <rect width="255" height="150" rx="16" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
   <rect width="255" height="4" rx="2" fill="#d97706"/>
-  <g transform="translate(18,30)">
-    <path d="M28 0 L54 9 V34 C54 50 42 58 28 64 C14 58 2 50 2 34 V9 Z" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
-    <path d="M15 32 l9 10 l17 -20" fill="none" stroke="#d97706" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Authentic AWS Logo -->
+  <g transform="translate(18,24) scale(1.15)">
+    <rect width="52" height="34" rx="8" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+    <use href="#logo-aws" x="3" y="3"/>
   </g>
-  <text x="92" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#d97706" font-weight="800">AWS Certified</text>
-  <text x="92" y="68" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Solutions Architect</text>
-  <text x="92" y="88" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Associate</text>
-  <rect x="20" y="108" width="215" height="1" fill="#e2e8f0"/>
-  <text x="20" y="132" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">Amazon Web Services</text>
+  
+  <text x="86" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#d97706" font-weight="800">AWS Certified</text>
+  <text x="86" y="66" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#0f172a" font-weight="900">Solutions Architect</text>
+  <text x="86" y="84" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" font-weight="600">Associate Level</text>
+  
+  <rect x="18" y="104" width="219" height="1" fill="#e2e8f0"/>
+  <text x="18" y="126" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#0369a1">✓ Verified Credential</text>
+  <text x="18" y="142" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#64748b">Amazon Web Services · 2024</text>
 </g>
 
 <!-- Card 3: MongoDB Certified -->
@@ -47,15 +81,20 @@
   <animateTransform attributeName="transform" type="translate" values="615,34;615,26;615,34" dur="6.2s" repeatCount="indefinite"/>
   <rect width="255" height="150" rx="16" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
   <rect width="255" height="4" rx="2" fill="#16a34a"/>
-  <g transform="translate(18,30)">
-    <path d="M28 0 L54 9 V34 C54 50 42 58 28 64 C14 58 2 50 2 34 V9 Z" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
-    <path d="M15 32 l9 10 l17 -20" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Authentic MongoDB Logo -->
+  <g transform="translate(18,24)">
+    <rect width="52" height="46" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+    <use href="#logo-mongodb" x="1" y="0"/>
   </g>
-  <text x="92" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#16a34a" font-weight="800">MongoDB Certified</text>
-  <text x="92" y="68" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Associate</text>
-  <text x="92" y="88" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Developer</text>
-  <rect x="20" y="108" width="215" height="1" fill="#e2e8f0"/>
-  <text x="20" y="132" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">MongoDB University</text>
+  
+  <text x="82" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#16a34a" font-weight="800">MongoDB Certified</text>
+  <text x="82" y="66" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#0f172a" font-weight="900">Associate Developer</text>
+  <text x="82" y="84" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" font-weight="600">Database Modeling</text>
+  
+  <rect x="18" y="104" width="219" height="1" fill="#e2e8f0"/>
+  <text x="18" y="126" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#15803d">✓ Verified Credential</text>
+  <text x="18" y="142" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#64748b">MongoDB University · 2024</text>
 </g>
 
 <!-- Card 4: Salesforce Agentforce -->
@@ -63,15 +102,20 @@
   <animateTransform attributeName="transform" type="translate" values="900,34;900,26;900,34" dur="6.8s" repeatCount="indefinite"/>
   <rect width="255" height="150" rx="16" fill="#ffffff" stroke="#0284c7" stroke-width="1.5"/>
   <rect width="255" height="4" rx="2" fill="#0284c7"/>
-  <g transform="translate(18,30)">
-    <path d="M28 0 L54 9 V34 C54 50 42 58 28 64 C14 58 2 50 2 34 V9 Z" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
-    <path d="M15 32 l9 10 l17 -20" fill="none" stroke="#0284c7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Authentic Salesforce Logo -->
+  <g transform="translate(18,24)">
+    <rect width="52" height="46" rx="8" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <use href="#logo-salesforce" x="1" y="8"/>
   </g>
-  <text x="92" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#0284c7" font-weight="800">Salesforce</text>
-  <text x="92" y="68" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Agentforce</text>
-  <text x="92" y="88" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" fill="#0f172a" font-weight="900">Specialist</text>
-  <rect x="20" y="108" width="215" height="1" fill="#e2e8f0"/>
-  <text x="20" y="132" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">Salesforce</text>
+  
+  <text x="82" y="44" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#0284c7" font-weight="800">Salesforce</text>
+  <text x="82" y="66" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" fill="#0f172a" font-weight="900">Agentforce Specialist</text>
+  <text x="82" y="84" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" font-weight="600">AI Agent Architect</text>
+  
+  <rect x="18" y="104" width="219" height="1" fill="#e2e8f0"/>
+  <text x="18" y="126" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11.5" font-weight="600" fill="#0369a1">✓ Verified Specialist</text>
+  <text x="18" y="142" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#64748b">Salesforce · 2025</text>
 </g>
 
 <!-- Recognition Badges -->
