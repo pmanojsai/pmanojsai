@@ -89,8 +89,7 @@
 <img src="assets/h-stack.svg" alt="04 / Tech Stack" width="100%" />
 
 <div align="center">
-  <p><b>Interactive Planetary Solar System of Core Technologies</b></p>
-  <img src="assets/skills-globe.svg" alt="3D Planetary Skills Solar System" width="100%" />
+  <img src="assets/skills-globe.svg" alt="Engineering Matrix &amp; Core Tech Architecture" width="100%" />
 </div>
 
 <br/>
