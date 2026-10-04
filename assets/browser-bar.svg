@@ -14,7 +14,7 @@
 <circle cx="28" cy="26" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.7"/>
 <circle cx="48" cy="26" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.7"/>
 <circle cx="68" cy="26" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.7"/>
-<!-- Address Capsule (React Bits Spotlight Style) -->
+<!-- Address Capsule -->
 <rect x="96" y="10" width="1008" height="32" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#rb-sh)"/>
 <path d="M118 22 a4.5 4.5 0 0 1 9 0 v3 h-9z M115 25 h15 v10 h-15z" fill="#10b981" transform="translate(0,-1) scale(0.95)"/>
 <text x="142" y="31" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#334155">https://puneethmanojsai.vercel.app</text>
