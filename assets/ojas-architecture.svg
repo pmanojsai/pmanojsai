@@ -1,80 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Ojas Raksha System Architecture">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Ojas Raksha architecture diagram">
 <defs>
-  <filter id="arch-sh" x="0" y="0" width="100%" height="100%">
-    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.04"/>
+  <linearGradient id="ojas-bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="60%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#f0f9ff"/>
+  </linearGradient>
+  <filter id="ojas-sh" x="-10%" y="-15%" width="120%" height="140%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08"/>
   </filter>
-  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-    <path d="M 0 1 L 8 5 L 0 9 z" fill="#0969da"/>
-  </marker>
 </defs>
+<rect width="1200" height="420" rx="20" fill="url(#ojas-bg)" stroke="#cbd5e1" stroke-width="1.5"/>
 
-<!-- Background Frame -->
-<rect width="1200" height="240" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<!-- Header -->
+<text x="40" y="52" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="14" font-weight="700" fill="#6366f1" letter-spacing="3">FEATURED CASE STUDY</text>
+<text x="40" y="82" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="900" fill="#0f172a">Ojas Raksha · DPDP-Compliant Healthcare Consent</text>
 
-<!-- Header bar -->
-<rect width="1200" height="36" rx="10" fill="#f8fafc"/>
-<rect x="0" y="35" width="1200" height="1" fill="#e2e8f0"/>
-<circle cx="20" cy="18" r="4" fill="#8250df"/>
-<text x="32" y="22" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#0f172a">Ojas Raksha · Decentralized Health Architecture (Patent Filed 2025)</text>
-
-<!-- Flow Connection Lines -->
-<line x1="260" y1="135" x2="355" y2="135" stroke="#0969da" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
-<line x1="560" y1="135" x2="655" y2="135" stroke="#0969da" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
-<line x1="860" y1="135" x2="955" y2="135" stroke="#0969da" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
-
-<!-- Block 1: Client Tier -->
-<g transform="translate(40, 60)" filter="url(#arch-sh)">
-  <rect width="220" height="150" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="0" y="0" width="220" height="30" rx="8" fill="#f1f5f9"/>
-  <rect x="0" y="29" width="220" height="1" fill="#e2e8f0"/>
-  <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0f172a">1. Client &amp; Role Portals</text>
-  
-  <text x="14" y="55" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#0969da">React · Next.js · Ethers</text>
-  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• 10+ Granular Role Portals</text>
-  <text x="14" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Patient Consent Management</text>
-  <text x="14" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• MetaMask Web3 Signer</text>
-  <text x="14" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" fill="#16a34a" font-weight="600">✓ Zero-Knowledge Auth</text>
+<!-- Patent Badge -->
+<g transform="translate(890, 30)">
+  <rect width="270" height="36" rx="18" fill="#0284c7"/>
+  <text x="135" y="23" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="900" fill="#ffffff" letter-spacing="0.5">PROVISIONAL PATENT FILED</text>
 </g>
 
-<!-- Block 2: Cloud & KMS Tier -->
-<g transform="translate(340, 60)" filter="url(#arch-sh)">
-  <rect width="220" height="150" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="0" y="0" width="220" height="30" rx="8" fill="#f1f5f9"/>
-  <rect x="0" y="29" width="220" height="1" fill="#e2e8f0"/>
-  <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0f172a">2. Security &amp; AWS KMS</text>
-  
-  <text x="14" y="55" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#d97706">AWS KMS · AES-256-GCM</text>
-  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Envelope Encryption</text>
-  <text x="14" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Dynamic DEK Generation</text>
-  <text x="14" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Microservice Gateway</text>
-  <text x="14" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" fill="#16a34a" font-weight="600">✓ Cryptographic Privacy</text>
+<!-- Animated Flow Connection Lines -->
+<path d="M290 143 L330 143" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="5 6">
+  <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.2s" repeatCount="indefinite"/>
+</path>
+<path d="M580 143 L620 143" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="5 6">
+  <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.2s" repeatCount="indefinite"/>
+</path>
+<path d="M870 143 L910 143" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="5 6">
+  <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.2s" repeatCount="indefinite"/>
+</path>
+<path d="M745 186 C745 230 455 226 455 270" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="5 6">
+  <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.2s" repeatCount="indefinite"/>
+</path>
+<path d="M580 313 L620 313" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="5 6">
+  <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.2s" repeatCount="indefinite"/>
+</path>
+<path d="M870 313 L910 313" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="5 6">
+  <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.2s" repeatCount="indefinite"/>
+</path>
+<path d="M1035 270 L1035 186" fill="none" stroke="#94a3b8" stroke-width="2.5" stroke-dasharray="5 6">
+  <animate attributeName="stroke-dashoffset" values="0;-22" dur="1.2s" repeatCount="indefinite"/>
+</path>
+
+<!-- Flowing Data Packet Beads -->
+<circle r="5.5" fill="#0284c7"><animateMotion dur="2.6s" begin="0.00s" repeatCount="indefinite" path="M290 143 L330 143"/></circle>
+<circle r="5.5" fill="#0284c7"><animateMotion dur="2.6s" begin="0.35s" repeatCount="indefinite" path="M580 143 L620 143"/></circle>
+<circle r="5.5" fill="#0284c7"><animateMotion dur="2.6s" begin="0.70s" repeatCount="indefinite" path="M870 143 L910 143"/></circle>
+<circle r="5.5" fill="#0284c7"><animateMotion dur="2.6s" begin="1.05s" repeatCount="indefinite" path="M745 186 C745 230 455 226 455 270"/></circle>
+<circle r="5.5" fill="#0284c7"><animateMotion dur="2.6s" begin="1.40s" repeatCount="indefinite" path="M580 313 L620 313"/></circle>
+<circle r="5.5" fill="#0284c7"><animateMotion dur="2.6s" begin="1.75s" repeatCount="indefinite" path="M870 313 L910 313"/></circle>
+<circle r="5.5" fill="#0284c7"><animateMotion dur="2.6s" begin="2.10s" repeatCount="indefinite" path="M1035 270 L1035 186"/></circle>
+
+<!-- Row 1 Cards -->
+<g transform="translate(40,100)" filter="url(#ojas-sh)">
+  <rect width="250" height="86" rx="14" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <rect width="6" height="86" rx="3" fill="#d97706"/>
+  <text x="24" y="36" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="900" fill="#0f172a">Wallet Login</text>
+  <text x="24" y="60" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">MetaMask signature + nonce</text>
+  <circle cx="228" cy="22" r="5" fill="#d97706"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
 </g>
 
-<!-- Block 3: Decentralized Storage -->
-<g transform="translate(640, 60)" filter="url(#arch-sh)">
-  <rect width="220" height="150" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="0" y="0" width="220" height="30" rx="8" fill="#f1f5f9"/>
-  <rect x="0" y="29" width="220" height="1" fill="#e2e8f0"/>
-  <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0f172a">3. Decentralized Storage</text>
-  
-  <text x="14" y="55" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#0284c7">IPFS · Content Addressing</text>
-  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Encrypted Health Records</text>
-  <text x="14" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Deterministic CIDs</text>
-  <text x="14" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Pinning &amp; Replication</text>
-  <text x="14" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" fill="#16a34a" font-weight="600">✓ Tamper-Proof Storage</text>
+<g transform="translate(330,100)" filter="url(#ojas-sh)">
+  <rect width="250" height="86" rx="14" fill="#ffffff" stroke="#0284c7" stroke-width="1.5"/>
+  <rect width="6" height="86" rx="3" fill="#0284c7"/>
+  <text x="24" y="36" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="900" fill="#0f172a">React dApp</text>
+  <text x="24" y="60" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">10+ role-based dashboards</text>
+  <circle cx="228" cy="22" r="5" fill="#0284c7"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
 </g>
 
-<!-- Block 4: Smart Contracts -->
-<g transform="translate(940, 60)" filter="url(#arch-sh)">
-  <rect width="220" height="150" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="0" y="0" width="220" height="30" rx="8" fill="#f1f5f9"/>
-  <rect x="0" y="29" width="220" height="1" fill="#e2e8f0"/>
-  <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0f172a">4. Blockchain Layer</text>
-  
-  <text x="14" y="55" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#8250df">Solidity · EVM / Algorand</text>
-  <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• grantConsent() Logic</text>
-  <text x="14" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• revokeConsent() Control</text>
-  <text x="14" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Immutable Audit Trail</text>
-  <text x="14" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" fill="#16a34a" font-weight="600">✓ Non-Repudiation</text>
+<g transform="translate(620,100)" filter="url(#ojas-sh)">
+  <rect width="250" height="86" rx="14" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <rect width="6" height="86" rx="3" fill="#16a34a"/>
+  <text x="24" y="36" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="900" fill="#0f172a">Node.js API</text>
+  <text x="24" y="60" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">auth · audit tracking</text>
+  <circle cx="228" cy="22" r="5" fill="#16a34a"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
 </g>
+
+<g transform="translate(910,100)" filter="url(#ojas-sh)">
+  <rect width="250" height="86" rx="14" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect width="6" height="86" rx="3" fill="#7c3aed"/>
+  <text x="24" y="36" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="900" fill="#0f172a">Solidity Contract</text>
+  <text x="24" y="60" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">grant · revoke · verifyAccess</text>
+  <circle cx="228" cy="22" r="5" fill="#7c3aed"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- Row 2 Cards -->
+<g transform="translate(330,270)" filter="url(#ojas-sh)">
+  <rect width="250" height="86" rx="14" fill="#ffffff" stroke="#0891b2" stroke-width="1.5"/>
+  <rect width="6" height="86" rx="3" fill="#0891b2"/>
+  <text x="24" y="36" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="900" fill="#0f172a">AES-256 Envelope</text>
+  <text x="24" y="60" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">unique DEK per document</text>
+  <circle cx="228" cy="22" r="5" fill="#0891b2"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+
+<g transform="translate(620,270)" filter="url(#ojas-sh)">
+  <rect width="250" height="86" rx="14" fill="#ffffff" stroke="#ea580c" stroke-width="1.5"/>
+  <rect width="6" height="86" rx="3" fill="#ea580c"/>
+  <text x="24" y="36" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="900" fill="#0f172a">AWS KMS</text>
+  <text x="24" y="60" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">controlled key management</text>
+  <circle cx="228" cy="22" r="5" fill="#ea580c"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+
+<g transform="translate(910,270)" filter="url(#ojas-sh)">
+  <rect width="250" height="86" rx="14" fill="#ffffff" stroke="#db2777" stroke-width="1.5"/>
+  <rect width="6" height="86" rx="3" fill="#db2777"/>
+  <text x="24" y="36" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="900" fill="#0f172a">IPFS</text>
+  <text x="24" y="60" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#64748b">encrypted off-chain storage</text>
+  <circle cx="228" cy="22" r="5" fill="#db2777"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- Footer Annotations -->
+<text x="40" y="238" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="12" font-weight="700" fill="#64748b">hash reference on-chain ↑ · encrypted document off-chain ↓</text>
+<text x="40" y="386" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#475569">React.js · Node.js · Solidity · MetaMask · IPFS · AWS KMS · AES-256 envelope encryption · blockchain integrity verification</text>
 </svg>

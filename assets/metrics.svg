@@ -1,43 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="Key Impact Metrics">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="Key impact metrics">
 <defs>
-  <filter id="kpi-sh" x="0" y="0" width="100%" height="100%">
-    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.03"/>
+  <filter id="card-sh" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
   </filter>
 </defs>
-
-<!-- Card 1: Users Scaled -->
-<g transform="translate(0, 0)">
-  <rect width="285" height="96" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#kpi-sh)"/>
-  <rect x="0" y="0" width="4" height="96" rx="2" fill="#0969da"/>
-  <text x="24" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f172a" letter-spacing="-0.5">800+</text>
-  <text x="24" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Concurrent Users Scaled</text>
-  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">IEEE Summit Platform</text>
-</g>
-
-<!-- Card 2: Performance Boost -->
-<g transform="translate(305, 0)">
-  <rect width="285" height="96" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#kpi-sh)"/>
-  <rect x="0" y="0" width="4" height="96" rx="2" fill="#16a34a"/>
-  <text x="24" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f172a" letter-spacing="-0.5">50%</text>
-  <text x="24" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Faster Page Load</text>
-  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Bundle splitting &amp; CI/CD</text>
-</g>
-
-<!-- Card 3: Role Dashboards -->
-<g transform="translate(610, 0)">
-  <rect width="285" height="96" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#kpi-sh)"/>
-  <rect x="0" y="0" width="4" height="96" rx="2" fill="#8250df"/>
-  <text x="24" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f172a" letter-spacing="-0.5">10+</text>
-  <text x="24" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Granular Role Dashboards</text>
-  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">Ojas Raksha Architecture</text>
-</g>
-
-<!-- Card 4: Credentials & Patents -->
-<g transform="translate(915, 0)">
-  <rect width="285" height="96" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#kpi-sh)"/>
-  <rect x="0" y="0" width="4" height="96" rx="2" fill="#d97706"/>
-  <text x="24" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f172a" letter-spacing="-0.5">4x</text>
-  <text x="24" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#334155">Certifications &amp; Patents</text>
-  <text x="24" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#64748b">AWS, Mongo, Salesforce &amp; Patent</text>
+<g transform="translate(0,0)" filter="url(#card-sh)">
+  <rect width="180" height="170" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="180" height="4" rx="2" fill="#0284c7"/>
+  <circle cx="150" cy="30" r="46" fill="#0284c7" opacity=".08">
+    <animate attributeName="r" values="38;52;38" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="900" fill="#0284c7">800+</text>
+  <text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0f172a">user interactions</text>
+  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">IEEE branch website</text>
+  <rect x="20" y="146" width="140" height="4" rx="2" fill="#f1f5f9"/>
+  <rect x="20" y="146" width="40" height="4" rx="2" fill="#0284c7">
+    <animate attributeName="width" values="20;140;20" dur="5.0s" repeatCount="indefinite"/>
+  </rect>
+</g><g transform="translate(204,0)" filter="url(#card-sh)">
+  <rect width="180" height="170" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="180" height="4" rx="2" fill="#0d9488"/>
+  <circle cx="150" cy="30" r="46" fill="#0d9488" opacity=".08">
+    <animate attributeName="r" values="38;52;38" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="900" fill="#0d9488">300+</text>
+  <text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0f172a">GitHub commits</text>
+  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">high-velocity builder</text>
+  <rect x="20" y="146" width="140" height="4" rx="2" fill="#f1f5f9"/>
+  <rect x="20" y="146" width="40" height="4" rx="2" fill="#0d9488">
+    <animate attributeName="width" values="20;140;20" dur="5.4s" repeatCount="indefinite"/>
+  </rect>
+</g><g transform="translate(408,0)" filter="url(#card-sh)">
+  <rect width="180" height="170" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="180" height="4" rx="2" fill="#16a34a"/>
+  <circle cx="150" cy="30" r="46" fill="#16a34a" opacity=".08">
+    <animate attributeName="r" values="38;52;38" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="900" fill="#16a34a">10+</text>
+  <text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0f172a">role dashboards</text>
+  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">Ojas Raksha dApp</text>
+  <rect x="20" y="146" width="140" height="4" rx="2" fill="#f1f5f9"/>
+  <rect x="20" y="146" width="40" height="4" rx="2" fill="#16a34a">
+    <animate attributeName="width" values="20;140;20" dur="5.8s" repeatCount="indefinite"/>
+  </rect>
+</g><g transform="translate(612,0)" filter="url(#card-sh)">
+  <rect width="180" height="170" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="180" height="4" rx="2" fill="#d97706"/>
+  <circle cx="150" cy="30" r="46" fill="#d97706" opacity=".08">
+    <animate attributeName="r" values="38;52;38" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="900" fill="#d97706">50%</text>
+  <text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0f172a">faster page load</text>
+  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">performance &amp; CI/CD</text>
+  <rect x="20" y="146" width="140" height="4" rx="2" fill="#f1f5f9"/>
+  <rect x="20" y="146" width="40" height="4" rx="2" fill="#d97706">
+    <animate attributeName="width" values="20;140;20" dur="6.2s" repeatCount="indefinite"/>
+  </rect>
+</g><g transform="translate(816,0)" filter="url(#card-sh)">
+  <rect width="180" height="170" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="180" height="4" rx="2" fill="#7c3aed"/>
+  <circle cx="150" cy="30" r="46" fill="#7c3aed" opacity=".08">
+    <animate attributeName="r" values="38;52;38" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="900" fill="#7c3aed">4+</text>
+  <text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0f172a">certifications</text>
+  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">AWS · Mongo · SF</text>
+  <rect x="20" y="146" width="140" height="4" rx="2" fill="#f1f5f9"/>
+  <rect x="20" y="146" width="40" height="4" rx="2" fill="#7c3aed">
+    <animate attributeName="width" values="20;140;20" dur="6.6s" repeatCount="indefinite"/>
+  </rect>
+</g><g transform="translate(1020,0)" filter="url(#card-sh)">
+  <rect width="180" height="170" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="180" height="4" rx="2" fill="#db2777"/>
+  <circle cx="150" cy="30" r="46" fill="#db2777" opacity=".08">
+    <animate attributeName="r" values="38;52;38" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="900" fill="#db2777">1</text>
+  <text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0f172a">provisional patent</text>
+  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">filed 2025</text>
+  <rect x="20" y="146" width="140" height="4" rx="2" fill="#f1f5f9"/>
+  <rect x="20" y="146" width="40" height="4" rx="2" fill="#db2777">
+    <animate attributeName="width" values="20;140;20" dur="7.0s" repeatCount="indefinite"/>
+  </rect>
 </g>
 </svg>

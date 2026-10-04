@@ -1,62 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" role="img" aria-label="Categorized Tech Stack">
-<!-- Container -->
-<rect width="1200" height="230" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" width="1200" height="510" role="img" aria-label="Tech stack by category">
+<defs>
+  <filter id="st-sh" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
+  </filter>
+</defs>
 
-<!-- Header -->
-<rect width="1200" height="36" rx="10" fill="#f8fafc"/>
-<rect x="0" y="35" width="1200" height="1" fill="#e2e8f0"/>
-<text x="24" y="22" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#0f172a">CORE TECHNICAL CAPABILITIES &amp; TOOLING</text>
-
-<!-- Category 1: Frontend & UI -->
-<g transform="translate(24, 52)">
-  <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0969da">Front-End &amp; UI Architecture</text>
-  <g transform="translate(0, 24)">
-    <!-- Chips -->
-    <g transform="translate(0,0)"><rect width="80" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="40" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">React.js</text></g>
-    <g transform="translate(88,0)"><rect width="80" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="40" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Next.js</text></g>
-    <g transform="translate(176,0)"><rect width="96" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="48" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">TypeScript</text></g>
-    <g transform="translate(280,0)"><rect width="90" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="45" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">JavaScript</text></g>
-    <g transform="translate(378,0)"><rect width="102" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="51" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Tailwind CSS</text></g>
-    <g transform="translate(488,0)"><rect width="86" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">HTML5/CSS3</text></g>
-  </g>
+<!-- Frontend -->
+<g transform="translate(0,0)" filter="url(#st-sh)">
+  <rect width="380" height="240" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="380" height="4" rx="2" fill="#0284c7"/>
+  <text x="22" y="40" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="900" fill="#0f172a">Frontend</text>
+  <circle cx="352" cy="34" r="5" fill="#0284c7"/>
+  <g transform="translate(22,62)"><rect width="85" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="42" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">React.js</text></g>
+  <g transform="translate(115,62)"><rect width="77" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">Next.js</text></g>
+  <g transform="translate(200,62)"><rect width="100" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="50" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">TypeScript</text></g>
+  <g transform="translate(22,100)"><rect width="100" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="50" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">JavaScript</text></g>
+  <g transform="translate(130,100)"><rect width="62" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="31" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">HTML5</text></g>
+  <g transform="translate(200,100)"><rect width="54" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="27" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">CSS3</text></g>
+  <g transform="translate(22,138)"><rect width="115" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="58" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">Tailwind CSS</text></g>
+  <g transform="translate(145,138)"><rect width="123" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="61" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">Accessibility</text></g>
+  <g transform="translate(22,176)"><rect width="108" height="28" rx="14" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.2"/><text x="54" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#0369a1">Performance</text></g>
 </g>
 
-<!-- Category 2: Backend & Cloud -->
-<g transform="translate(620, 52)">
-  <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#16a34a">Backend &amp; Cloud Infrastructure</text>
-  <g transform="translate(0, 24)">
-    <g transform="translate(0,0)"><rect width="78" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Node.js</text></g>
-    <g transform="translate(86,0)"><rect width="78" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Python</text></g>
-    <g transform="translate(172,0)"><rect width="90" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="45" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">AWS Cloud</text></g>
-    <g transform="translate(270,0)"><rect width="86" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">MongoDB</text></g>
-    <g transform="translate(364,0)"><rect width="86" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">PostgreSQL</text></g>
-    <g transform="translate(458,0)"><rect width="86" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">REST APIs</text></g>
-  </g>
+<!-- Backend -->
+<g transform="translate(410,0)" filter="url(#st-sh)">
+  <rect width="380" height="240" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="380" height="4" rx="2" fill="#16a34a"/>
+  <text x="22" y="40" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="900" fill="#0f172a">Backend</text>
+  <circle cx="352" cy="34" r="5" fill="#16a34a"/>
+  <g transform="translate(22,62)"><rect width="77" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">Node.js</text></g>
+  <g transform="translate(107,62)"><rect width="100" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="50" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">Express.js</text></g>
+  <g transform="translate(215,62)"><rect width="54" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="27" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">Java</text></g>
+  <g transform="translate(22,100)"><rect width="108" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="54" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">Spring Boot</text></g>
+  <g transform="translate(138,100)"><rect width="70" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="35" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">Python</text></g>
+  <g transform="translate(215,100)"><rect width="62" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="31" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">Flask</text></g>
+  <g transform="translate(22,138)"><rect width="92" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="46" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">REST APIs</text></g>
+  <g transform="translate(122,138)"><rect width="123" height="28" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/><text x="61" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#15803d">Microservices</text></g>
 </g>
 
-<!-- Category 3: Blockchain & Security -->
-<g transform="translate(24, 134)">
-  <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#8250df">Blockchain &amp; Decentralized Systems</text>
-  <g transform="translate(0, 24)">
-    <g transform="translate(0,0)"><rect width="78" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Solidity</text></g>
-    <g transform="translate(86,0)"><rect width="66" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="33" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">IPFS</text></g>
-    <g transform="translate(160,0)"><rect width="78" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Ethers.js</text></g>
-    <g transform="translate(246,0)"><rect width="78" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Algorand</text></g>
-    <g transform="translate(332,0)"><rect width="84" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="42" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">MetaMask</text></g>
-    <g transform="translate(424,0)"><rect width="86" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">AWS KMS</text></g>
-  </g>
+<!-- Databases -->
+<g transform="translate(820,0)" filter="url(#st-sh)">
+  <rect width="380" height="240" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="380" height="4" rx="2" fill="#d97706"/>
+  <text x="22" y="40" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="900" fill="#0f172a">Databases</text>
+  <circle cx="352" cy="34" r="5" fill="#d97706"/>
+  <g transform="translate(22,62)"><rect width="88" height="28" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/><text x="44" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#b45309">MongoDB</text></g>
+  <g transform="translate(118,62)"><rect width="100" height="28" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/><text x="50" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#b45309">PostgreSQL</text></g>
+  <g transform="translate(226,62)"><rect width="62" height="28" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/><text x="31" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#b45309">MySQL</text></g>
+  <g transform="translate(22,100)"><rect width="85" height="28" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/><text x="42" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#b45309">Firebase</text></g>
+  <g transform="translate(115,100)"><rect width="62" height="28" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/><text x="31" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#b45309">Redis</text></g>
 </g>
 
-<!-- Category 4: DevOps & Testing -->
-<g transform="translate(620, 134)">
-  <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#d97706">DevOps, Tooling &amp; Testing</text>
-  <g transform="translate(0, 24)">
-    <g transform="translate(0,0)"><rect width="58" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="29" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Git</text></g>
-    <g transform="translate(66,0)"><rect width="72" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="36" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">GitHub</text></g>
-    <g transform="translate(146,0)"><rect width="118" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="59" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">GitHub Actions</text></g>
-    <g transform="translate(272,0)"><rect width="70" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="35" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Docker</text></g>
-    <g transform="translate(350,0)"><rect width="78" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Postman</text></g>
-    <g transform="translate(436,0)"><rect width="66" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/><text x="33" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Vercel</text></g>
-  </g>
+<!-- Cloud & DevOps -->
+<g transform="translate(0,270)" filter="url(#st-sh)">
+  <rect width="380" height="240" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="380" height="4" rx="2" fill="#ea580c"/>
+  <text x="22" y="40" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="900" fill="#0f172a">Cloud &amp; DevOps</text>
+  <circle cx="352" cy="34" r="5" fill="#ea580c"/>
+  <g transform="translate(22,62)"><rect width="85" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="42" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">AWS EC2</text></g>
+  <g transform="translate(115,62)"><rect width="45" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="22" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">S3</text></g>
+  <g transform="translate(168,62)"><rect width="75" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="37" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">Lambda</text></g>
+  <g transform="translate(250,62)"><rect width="70" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="35" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">Docker</text></g>
+  <g transform="translate(22,100)"><rect width="130" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="65" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">GitHub Actions</text></g>
+  <g transform="translate(160,100)"><rect width="70" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="35" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">Vercel</text></g>
+  <g transform="translate(238,100)"><rect width="77" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">Netlify</text></g>
+  <g transform="translate(22,138)"><rect width="70" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="35" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">Render</text></g>
+  <g transform="translate(100,138)"><rect width="62" height="28" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="1.2"/><text x="31" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#c2410c">Linux</text></g>
+</g>
+
+<!-- Web3 & Security -->
+<g transform="translate(410,270)" filter="url(#st-sh)">
+  <rect width="380" height="240" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="380" height="4" rx="2" fill="#7c3aed"/>
+  <text x="22" y="40" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="900" fill="#0f172a">Web3 &amp; Security</text>
+  <circle cx="352" cy="34" r="5" fill="#7c3aed"/>
+  <g transform="translate(22,62)"><rect width="85" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="42" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">Solidity</text></g>
+  <g transform="translate(115,62)"><rect width="92" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="46" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">Ethers.js</text></g>
+  <g transform="translate(215,62)"><rect width="77" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">Web3.js</text></g>
+  <g transform="translate(300,62)"><rect width="54" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="27" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">IPFS</text></g>
+  <g transform="translate(22,100)"><rect width="115" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="58" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">Algorand SDK</text></g>
+  <g transform="translate(145,100)"><rect width="85" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="42" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">MetaMask</text></g>
+  <g transform="translate(238,100)"><rect width="123" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="61" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">WalletConnect</text></g>
+  <g transform="translate(22,138)"><rect width="77" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">AES-256</text></g>
+  <g transform="translate(107,138)"><rect width="77" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">AWS KMS</text></g>
+  <g transform="translate(192,138)"><rect width="130" height="28" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/><text x="65" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#6d28d9">Applied Crypto</text></g>
+</g>
+
+<!-- Tools & AI -->
+<g transform="translate(820,270)" filter="url(#st-sh)">
+  <rect width="380" height="240" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  <rect x="0" y="0" width="380" height="4" rx="2" fill="#db2777"/>
+  <text x="22" y="40" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="900" fill="#0f172a">Tools &amp; AI</text>
+  <circle cx="352" cy="34" r="5" fill="#db2777"/>
+  <g transform="translate(22,62)"><rect width="47" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="23" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">Git</text></g>
+  <g transform="translate(77,62)"><rect width="70" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="35" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">GitHub</text></g>
+  <g transform="translate(154,62)"><rect width="77" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">Postman</text></g>
+  <g transform="translate(240,62)"><rect width="62" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="31" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">Figma</text></g>
+  <g transform="translate(22,100)"><rect width="77" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="39" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">VS Code</text></g>
+  <g transform="translate(107,100)"><rect width="108" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="54" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">Prompt Eng.</text></g>
+  <g transform="translate(223,100)"><rect width="138" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="69" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">AI-assisted Dev</text></g>
+  <g transform="translate(22,138)"><rect width="123" height="28" rx="14" fill="#fdf2f8" stroke="#db2777" stroke-width="1.2"/><text x="61" y="19" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="700" fill="#be185d">Agile / Scrum</text></g>
 </g>
 </svg>

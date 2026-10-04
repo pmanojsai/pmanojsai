@@ -1,56 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="1200" height="210" role="img" aria-label="Experience Timeline">
-<!-- Container -->
-<rect width="1200" height="210" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-
-<!-- Header -->
-<rect width="1200" height="34" rx="10" fill="#f8fafc"/>
-<rect x="0" y="33" width="1200" height="1" fill="#e2e8f0"/>
-<text x="24" y="21" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#0f172a">PROFESSIONAL TIMELINE &amp; LEADERSHIP</text>
-
-<!-- Git Commit Track Line -->
-<line x1="60" y1="60" x2="1140" y2="60" stroke="#e2e8f0" stroke-width="2"/>
-
-<!-- Node 1: Good Health 24/7 -->
-<g transform="translate(60, 50)">
-  <circle cx="0" cy="10" r="7" fill="#ffffff" stroke="#0969da" stroke-width="3"/>
-  <rect x="-10" y="28" width="245" height="106" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="6" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0969da">Open Source Fellow</text>
-  <text x="6" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Good Health 24/7</text>
-  <text x="6" y="84" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#64748b">Dec 2024 – Present</text>
-  <text x="6" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Full stack healthcare modules</text>
-  <text x="6" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Automated CI/CD &amp; code reviews</text>
-</g>
-
-<!-- Node 2: Algorand Club Lead -->
-<g transform="translate(340, 50)">
-  <circle cx="0" cy="10" r="7" fill="#ffffff" stroke="#8250df" stroke-width="3"/>
-  <rect x="-10" y="28" width="245" height="106" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="6" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8250df">Technical Lead</text>
-  <text x="6" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0f172a">Algorand Developers Club</text>
-  <text x="6" y="84" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#64748b">Aug 2024 – Present</text>
-  <text x="6" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Mentoring 200+ developers</text>
-  <text x="6" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Smart contract hackathons</text>
-</g>
-
-<!-- Node 3: IEEE Student Branch -->
-<g transform="translate(620, 50)">
-  <circle cx="0" cy="10" r="7" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
-  <rect x="-10" y="28" width="245" height="106" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="6" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#16a34a">Web Master &amp; Designer</text>
-  <text x="6" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0f172a">KLEF IEEE Student Branch</text>
-  <text x="6" y="84" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#64748b">Aug 2024 – Present</text>
-  <text x="6" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Scaled to 800+ users</text>
-  <text x="6" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• IEEE Belt Performer Award</text>
-</g>
-
-<!-- Node 4: KL University -->
-<g transform="translate(900, 50)">
-  <circle cx="0" cy="10" r="7" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
-  <rect x="-10" y="28" width="245" height="106" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="6" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#d97706">B.Tech CS &amp; IT</text>
-  <text x="6" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#0f172a">KL University Hyderabad</text>
-  <text x="6" y="84" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#64748b">2023 – 2027</text>
-  <text x="6" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Provisional Patent Filed</text>
-  <text x="6" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" fill="#475569">• Focus: Cloud &amp; Distributed Sys</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-label="Experience timeline">
+<defs>
+  <filter id="time-sh" x="-5%" y="-10%" width="110%" height="130%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
+  </filter>
+</defs>
+<line x1="70" y1="30" x2="70" y2="550" stroke="#cbd5e1" stroke-width="3"/>
+<line x1="70" y1="30" x2="70" y2="550" stroke="#0284c7" stroke-width="3" stroke-dasharray="14 200">
+  <animate attributeName="stroke-dashoffset" values="0;-214" dur="5s" repeatCount="indefinite"/>
+</line>
+<g transform="translate(0,20)">
+  <circle cx="70" cy="42" r="14" fill="#0284c7" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#0284c7"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#0284c7"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Open Source AI Fellow</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#0284c7" font-weight="700">Good Health 24/7 (MedPilot) · Remote</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Core product development and engineering deliverables for the MedPilot digital healthcare product.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">Jul 2026 – Present</text>
+    </g>
+  </g>
+</g><g transform="translate(0,132)">
+  <circle cx="70" cy="42" r="14" fill="#db2777" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#db2777"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#db2777"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Cybersecurity Intern</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#db2777" font-weight="700">Vaults of Code · Remote</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Application security, secure software development and security practices through hands-on technical tasks.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">May 2026 – Jul 2026</text>
+    </g>
+  </g>
+</g><g transform="translate(0,244)">
+  <circle cx="70" cy="42" r="14" fill="#7c3aed" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#7c3aed"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#7c3aed"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Tech Lead</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#7c3aed" font-weight="700">Algorand Club · Hyderabad</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Led Algorand SDK / Solidity work, mentored a 10-member team and ran 5+ Web3 workshops (+40% participation).</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">Mar 2025 – Present</text>
+    </g>
+  </g>
+</g><g transform="translate(0,356)">
+  <circle cx="70" cy="42" r="14" fill="#d97706" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#d97706"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#d97706"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">AI Developer</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#d97706" font-weight="700">Viswam AI · Remote</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Built AI-powered applications and datasets with intelligent features for real-world use cases.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">May 2025 – Aug 2025</text>
+    </g>
+  </g>
+</g><g transform="translate(0,468)">
+  <circle cx="70" cy="42" r="14" fill="#16a34a" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#16a34a"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#16a34a"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Web Master &amp; Graphic Designer</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#16a34a" font-weight="700">IEEE Student Branch · Hyderabad</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">React/Tailwind event sites cutting page load by 50%; GitHub Actions + Vercel CI/CD and visual branding.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">Dec 2024 – Present</text>
+    </g>
+  </g>
 </g>
 </svg>
