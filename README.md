@@ -119,12 +119,12 @@
 <img src="assets/h-stats.svg" alt="06 / Impact & Activity" width="100%" />
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=default&hide_border=false&border_color=cbd5e1&title_color=0f172a&text_color=475569&icon_color=0284c7&bg_color=ffffff&count_private=true" alt="GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=default&hide_border=false&border_color=cbd5e1&title_color=0f172a&text_color=475569&bg_color=ffffff" alt="Top languages" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=default&hide_border=false&border_color=e2e8f0&title_color=0f172a&text_color=475569&icon_color=0969da&bg_color=ffffff&count_private=true" alt="GitHub stats" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmanojsai&layout=compact&theme=default&hide_border=false&border_color=e2e8f0&title_color=0f172a&text_color=475569&bg_color=ffffff" alt="Top languages" />
 
   <br/><br/>
 
-  <img src="https://streak-stats.demolab.com/?user=pmanojsai&theme=default&hide_border=false&border=cbd5e1&stroke=0284c7&ring=0284c7&fire=ea580c&currStreakLabel=0f172a&sideLabels=475569&dates=64748b&background=ffffff" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com/?user=pmanojsai&theme=default&hide_border=false&border=e2e8f0&stroke=0969da&ring=0969da&fire=ea580c&currStreakLabel=0f172a&sideLabels=475569&dates=64748b&background=ffffff" alt="GitHub streak" />
 </div>
 
 ---

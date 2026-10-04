@@ -1,402 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="Engineering Capabilities Bento Grid and Tech Matrix">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480" role="img" aria-label="Engineering Capabilities Bento Grid">
 <defs>
-  <!-- Background Canvas Gradients -->
-  <linearGradient id="canvas-bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#ffffff"/>
-    <stop offset="40%" stop-color="#f8fafc"/>
-    <stop offset="85%" stop-color="#f0f9ff"/>
-    <stop offset="100%" stop-color="#e0f2fe"/>
-  </linearGradient>
-
-  <!-- Bento Card Glass Gradient -->
-  <linearGradient id="card-glass" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#ffffff"/>
-    <stop offset="100%" stop-color="#fbfdff"/>
-  </linearGradient>
-
-  <!-- Accent Gradients -->
-  <linearGradient id="grad-sky" x1="0" x2="1">
-    <stop offset="0%" stop-color="#0284c7"/>
-    <stop offset="100%" stop-color="#38bdf8"/>
-  </linearGradient>
-
-  <linearGradient id="grad-indigo" x1="0" x2="1">
-    <stop offset="0%" stop-color="#4f46e5"/>
-    <stop offset="100%" stop-color="#818cf8"/>
-  </linearGradient>
-
-  <linearGradient id="grad-emerald" x1="0" x2="1">
-    <stop offset="0%" stop-color="#059669"/>
-    <stop offset="100%" stop-color="#34d399"/>
-  </linearGradient>
-
-  <linearGradient id="grad-amber" x1="0" x2="1">
-    <stop offset="0%" stop-color="#d97706"/>
-    <stop offset="100%" stop-color="#fbbf24"/>
-  </linearGradient>
-
-  <linearGradient id="grad-purple" x1="0" x2="1">
-    <stop offset="0%" stop-color="#7c3aed"/>
-    <stop offset="100%" stop-color="#a78bfa"/>
-  </linearGradient>
-
-  <linearGradient id="grad-rose" x1="0" x2="1">
-    <stop offset="0%" stop-color="#e11d48"/>
-    <stop offset="100%" stop-color="#fb7185"/>
-  </linearGradient>
-
-  <!-- Ambient Light Orbs -->
-  <radialGradient id="glow-sky" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#0284c7" stop-opacity="0.14"/>
-    <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
-  </radialGradient>
-
-  <radialGradient id="glow-indigo" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#6366f1" stop-opacity="0.12"/>
-    <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
-  </radialGradient>
-
-  <radialGradient id="glow-emerald" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#10b981" stop-opacity="0.12"/>
-    <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
-  </radialGradient>
-
-  <!-- High-End Drop Shadows -->
-  <filter id="bento-shadow" x="-5%" y="-5%" width="110%" height="115%">
-    <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.05"/>
+  <filter id="bento-sh" x="0" y="0" width="100%" height="100%">
     <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.03"/>
   </filter>
-
-  <filter id="pill-shadow" x="-10%" y="-15%" width="120%" height="140%">
-    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.04"/>
-  </filter>
-
-  <!-- Pattern: Dot Grid Matrix -->
-  <pattern id="dot-grid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.1" fill="#cbd5e1" opacity="0.65"/>
-  </pattern>
-
-  <clipPath id="viewport-clip">
-    <rect width="1200" height="620" rx="20"/>
-  </clipPath>
 </defs>
-<g clip-path="url(#viewport-clip)">
-<rect width="1200" height="620" fill="url(#canvas-bg)" stroke="#cbd5e1" stroke-width="1.5"/>
-<rect width="1200" height="620" fill="url(#dot-grid)"/>
-<circle cx="200" cy="180" r="280" fill="url(#glow-sky)"/>
-<circle cx="980" cy="400" r="320" fill="url(#glow-indigo)"/>
-<circle cx="650" cy="520" r="260" fill="url(#glow-emerald)"/>
-<!-- Top Control Telemetry Header -->
-<g transform="translate(30, 20)">
-  <rect width="1140" height="42" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#pill-shadow)"/>
-  
-  <!-- Status Indicator -->
-  <g transform="translate(18, 13)">
-    <circle cx="8" cy="8" r="4.5" fill="#10b981">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="8" cy="8" r="8" fill="none" stroke="#10b981" stroke-width="1.2" opacity="0.5">
-      <animate attributeName="r" values="6;11;6" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="24" y="12" font-family="'Fira Code',Consolas,monospace" font-size="12" font-weight="700" fill="#0f172a" letter-spacing="1">ENGINEERING MATRIX &amp; CORE STACK</text>
+
+<!-- Main Container -->
+<rect width="1200" height="480" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+
+<!-- Header bar -->
+<rect width="1200" height="36" rx="10" fill="#f8fafc"/>
+<rect x="0" y="35" width="1200" height="1" fill="#e2e8f0"/>
+<text x="24" y="22" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#0f172a">ENGINEERING CAPABILITIES MATRIX</text>
+
+<!-- ==================== BENTO CARD 1: FRONT-END & UI (Top Left: 360 x 200) ==================== -->
+<g transform="translate(24, 52)" filter="url(#bento-sh)">
+  <rect width="360" height="200" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="0" width="360" height="32" rx="8" fill="#ffffff"/>
+  <rect x="0" y="31" width="360" height="1" fill="#e2e8f0"/>
+  <circle cx="16" cy="16" r="4" fill="#0969da"/>
+  <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">Front-End &amp; UI Architecture</text>
+
+  <!-- Tags -->
+  <g transform="translate(16, 46)">
+    <g transform="translate(0,0)"><rect width="80" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="40" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">React.js</text></g>
+    <g transform="translate(88,0)"><rect width="80" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="40" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Next.js</text></g>
+    <g transform="translate(176,0)"><rect width="90" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="45" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">TypeScript</text></g>
   </g>
 
-  <!-- Right Telemetry Tags -->
-  <g transform="translate(680, 10)">
-    <rect x="0" y="0" width="136" height="22" rx="11" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
-    <text x="68" y="15" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10.5" font-weight="700" fill="#0369a1">4 CORE DOMAINS</text>
-    
-    <rect x="146" y="0" width="144" height="22" rx="11" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
-    <text x="218" y="15" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10.5" font-weight="700" fill="#6d28d9">16 TECH SYSTEMS</text>
-
-    <rect x="300" y="0" width="148" height="22" rx="11" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
-    <text x="374" y="15" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10.5" font-weight="700" fill="#047857">PRODUCTION READY</text>
+  <g transform="translate(16, 80)">
+    <g transform="translate(0,0)"><rect width="98" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="49" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Tailwind CSS</text></g>
+    <g transform="translate(106,0)"><rect width="82" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="41" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Vite / ES6</text></g>
   </g>
+
+  <!-- Metric note -->
+  <text x="16" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#334155">Focus: Component modularity &amp; responsive UX</text>
+  <text x="16" y="156" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#16a34a">✓ 50% faster load via dynamic code splitting</text>
+  <text x="16" y="174" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#0969da">✓ 100% WCAG accessible interactive UI</text>
 </g>
-<!-- Bento Card 1: Frontend & UI Engine -->
-<g transform="translate(30, 80)" filter="url(#bento-shadow)">
-  <rect width="360" height="510" rx="16" fill="url(#card-glass)" stroke="#cbd5e1" stroke-width="1.2"/>
-  <rect x="0" y="0" width="360" height="5" rx="2.5" fill="url(#grad-sky)"/>
-  
-  <!-- Category Header -->
-  <g transform="translate(24, 24)">
-    <rect width="36" height="36" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.2"/>
-    <text x="18" y="24" text-anchor="middle" font-size="18">⚛️</text>
-    <text x="48" y="17" font-family="Inter,sans-serif" font-size="17" font-weight="900" fill="#0f172a">Frontend Systems</text>
-    <text x="48" y="32" font-family="'Fira Code',monospace" font-size="11" font-weight="600" fill="#0284c7">UI Architecture · SPAs · SSR</text>
+
+<!-- ==================== BENTO CARD 2: BACKEND & DISTRIBUTED SYSTEMS (Top Mid: 400 x 200) ==================== -->
+<g transform="translate(400, 52)" filter="url(#bento-sh)">
+  <rect width="395" height="200" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="0" width="395" height="32" rx="8" fill="#ffffff"/>
+  <rect x="0" y="31" width="395" height="1" fill="#e2e8f0"/>
+  <circle cx="16" cy="16" r="4" fill="#16a34a"/>
+  <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">Backend Services &amp; APIs</text>
+
+  <!-- Tags -->
+  <g transform="translate(16, 46)">
+    <g transform="translate(0,0)"><rect width="76" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="38" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Node.js</text></g>
+    <g transform="translate(84,0)"><rect width="76" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="38" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Python</text></g>
+    <g transform="translate(168,0)"><rect width="86" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Express.js</text></g>
+    <g transform="translate(262,0)"><rect width="86" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">REST APIs</text></g>
   </g>
 
-  <!-- Technology Pills inside Card 1 -->
-  <!-- React.js -->
-  <g transform="translate(24, 80)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#0284c7"/>
-    <!-- React Atom Icon -->
-    <g transform="translate(32, 33) scale(1.1)">
-      <ellipse rx="13" ry="5" fill="none" stroke="#0284c7" stroke-width="1.8"/>
-      <ellipse rx="13" ry="5" fill="none" stroke="#0284c7" stroke-width="1.8" transform="rotate(60)"/>
-      <ellipse rx="13" ry="5" fill="none" stroke="#0284c7" stroke-width="1.8" transform="rotate(120)"/>
-      <circle r="2.8" fill="#0284c7"/>
-    </g>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">React.js</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">Component systems, custom hooks, state engines</text>
-    <rect x="238" y="14" width="60" height="20" rx="10" fill="#e0f2fe"/>
-    <text x="268" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#0369a1">CORE</text>
+  <g transform="translate(16, 80)">
+    <g transform="translate(0,0)"><rect width="86" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">MongoDB</text></g>
+    <g transform="translate(94,0)"><rect width="90" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="45" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">PostgreSQL</text></g>
+    <g transform="translate(192,0)"><rect width="90" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="45" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">WebSockets</text></g>
   </g>
 
-  <!-- Next.js -->
-  <g transform="translate(24, 156)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#0f172a"/>
-    <!-- Next.js Logo -->
-    <g transform="translate(32, 33)">
-      <circle r="13" fill="#0f172a"/>
-      <polygon points="-5,-7 6,7 3,7 -8,-7" fill="#ffffff"/>
-      <polygon points="3,-7 6,-7 6,7 3,7" fill="#ffffff"/>
-    </g>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">Next.js 14 / 15</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">App Router, SSR, Edge runtime, SEO optimization</text>
-    <rect x="230" y="14" width="68" height="20" rx="10" fill="#f1f5f9"/>
-    <text x="264" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#0f172a">HYBRID</text>
-  </g>
-
-  <!-- TypeScript -->
-  <g transform="translate(24, 232)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#2563eb"/>
-    <!-- TS Logo -->
-    <g transform="translate(32, 33)">
-      <rect x="-13" y="-13" width="26" height="26" rx="4" fill="#2563eb"/>
-      <text x="-4" y="6" font-family="Inter,sans-serif" font-size="13" font-weight="900" fill="#ffffff">TS</text>
-    </g>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">TypeScript</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">Strict type safety, generics, robust interfaces</text>
-    <rect x="216" y="14" width="82" height="20" rx="10" fill="#eff6ff"/>
-    <text x="257" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#1e40af">TYPE-SAFE</text>
-  </g>
-
-  <!-- Tailwind CSS & Modern Styling -->
-  <g transform="translate(24, 308)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#06b6d4"/>
-    <!-- Tailwind Wave -->
-    <g transform="translate(32, 33) scale(1.1)">
-      <path d="M-10,2 C-7,-6 -2,-6 1,-1 C4,4 8,4 10,0 C8,7 3,7 -1,2 C-4,-3 -7,-3 -10,2 Z" fill="#06b6d4"/>
-    </g>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">Tailwind CSS &amp; UI</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">Responsive design systems, animations, glassmorphism</text>
-    <rect x="236" y="14" width="62" height="20" rx="10" fill="#ecfeff"/>
-    <text x="267" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#0e7490">STYLING</text>
-  </g>
-
-  <!-- Card 1 Bottom Stats Capsule -->
-  <g transform="translate(24, 394)">
-    <rect width="312" height="96" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="16" y="26" font-family="'Fira Code',monospace" font-size="11" font-weight="700" fill="#0284c7">PERFORMANCE BENCHMARK</text>
-    
-    <text x="16" y="52" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#475569">Lighthouse Score</text>
-    <text x="296" y="52" text-anchor="end" font-family="'Fira Code',monospace" font-size="13" font-weight="900" fill="#059669">98 / 100</text>
-    <rect x="16" y="60" width="280" height="4" rx="2" fill="#e2e8f0"/>
-    <rect x="16" y="60" width="274" height="4" rx="2" fill="#10b981"/>
-
-    <text x="16" y="80" font-family="Inter,sans-serif" font-size="11" font-weight="500" fill="#64748b">50% Faster Page Load &amp; Optimized Core Web Vitals</text>
-  </g>
+  <text x="16" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#334155">Focus: High-concurrency event loops &amp; secure endpoints</text>
+  <text x="16" y="156" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#16a34a">✓ Scaled to 800+ concurrent users with zero downtime</text>
+  <text x="16" y="174" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#0969da">✓ Granular RBAC and token-based authentication</text>
 </g>
-<!-- Bento Card 2: Backend Architecture -->
-<g transform="translate(410, 80)" filter="url(#bento-shadow)">
-  <rect width="380" height="240" rx="16" fill="url(#card-glass)" stroke="#cbd5e1" stroke-width="1.2"/>
-  <rect x="0" y="0" width="380" height="5" rx="2.5" fill="url(#grad-emerald)"/>
-  
-  <!-- Category Header -->
-  <g transform="translate(24, 22)">
-    <rect width="36" height="36" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
-    <text x="18" y="24" text-anchor="middle" font-size="18">⚙️</text>
-    <text x="48" y="17" font-family="Inter,sans-serif" font-size="17" font-weight="900" fill="#0f172a">Backend &amp; Distributed APIs</text>
-    <text x="48" y="32" font-family="'Fira Code',monospace" font-size="11" font-weight="600" fill="#16a34a">REST · Microservices · Event Pipelines</text>
+
+<!-- ==================== BENTO CARD 3: CLOUD & AWS (Top Right: 360 x 200) ==================== -->
+<g transform="translate(812, 52)" filter="url(#bento-sh)">
+  <rect width="364" height="200" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="0" width="364" height="32" rx="8" fill="#ffffff"/>
+  <rect x="0" y="31" width="364" height="1" fill="#e2e8f0"/>
+  <circle cx="16" cy="16" r="4" fill="#d97706"/>
+  <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">Cloud Infrastructure &amp; Security</text>
+
+  <!-- Tags -->
+  <g transform="translate(16, 46)">
+    <g transform="translate(0,0)"><rect width="80" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="40" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">AWS S3</text></g>
+    <g transform="translate(88,0)"><rect width="86" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="43" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">AWS KMS</text></g>
+    <g transform="translate(182,0)"><rect width="90" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="45" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Lambda</text></g>
   </g>
 
-  <!-- 4 Compact Tech Nodes -->
-  <!-- Node.js -->
-  <g transform="translate(24, 76)">
-    <rect width="158" height="66" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <polygon points="26,18 36,24 36,36 26,42 16,36 16,24" fill="#16a34a" opacity="0.15"/>
-    <text x="26" y="34" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" font-weight="900" fill="#15803d">⬢</text>
-    <text x="44" y="30" font-family="Inter,sans-serif" font-size="14" font-weight="900" fill="#0f172a">Node.js</text>
-    <text x="44" y="46" font-family="'Fira Code',monospace" font-size="10.5" font-weight="600" fill="#64748b">Async runtime</text>
+  <g transform="translate(16, 80)">
+    <g transform="translate(0,0)"><rect width="76" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="38" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Docker</text></g>
+    <g transform="translate(84,0)"><rect width="116" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="58" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">GitHub Actions</text></g>
+    <g transform="translate(208,0)"><rect width="70" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="35" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Vercel</text></g>
   </g>
 
-  <!-- Python -->
-  <g transform="translate(198, 76)">
-    <rect width="158" height="66" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <text x="26" y="38" text-anchor="middle" font-size="20">🐍</text>
-    <text x="46" y="30" font-family="Inter,sans-serif" font-size="14" font-weight="900" fill="#0f172a">Python</text>
-    <text x="46" y="46" font-family="'Fira Code',monospace" font-size="10.5" font-weight="600" fill="#64748b">APIs &amp; PyTeal</text>
-  </g>
-
-  <!-- Express.js -->
-  <g transform="translate(24, 152)">
-    <rect width="158" height="66" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <text x="26" y="38" text-anchor="middle" font-size="20">⚡</text>
-    <text x="46" y="30" font-family="Inter,sans-serif" font-size="14" font-weight="900" fill="#0f172a">Express.js</text>
-    <text x="46" y="46" font-family="'Fira Code',monospace" font-size="10.5" font-weight="600" fill="#64748b">REST API server</text>
-  </g>
-
-  <!-- Java & Spring Boot -->
-  <g transform="translate(198, 152)">
-    <rect width="158" height="66" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <text x="26" y="38" text-anchor="middle" font-size="20">☕</text>
-    <text x="46" y="30" font-family="Inter,sans-serif" font-size="14" font-weight="900" fill="#0f172a">Java / Spring</text>
-    <text x="46" y="46" font-family="'Fira Code',monospace" font-size="10.5" font-weight="600" fill="#64748b">Enterprise core</text>
-  </g>
+  <text x="16" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#334155">Credentials: AWS Solutions Architect &amp; Cloud Practitioner</text>
+  <text x="16" y="156" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#16a34a">✓ Envelope encryption using KMS Data Encryption Keys</text>
+  <text x="16" y="174" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#0969da">✓ Automated multi-environment CI/CD deployment</text>
 </g>
-<!-- Bento Card 3: Cloud & DevOps -->
-<g transform="translate(410, 340)" filter="url(#bento-shadow)">
-  <rect width="380" height="250" rx="16" fill="url(#card-glass)" stroke="#cbd5e1" stroke-width="1.2"/>
-  <rect x="0" y="0" width="380" height="5" rx="2.5" fill="url(#grad-amber)"/>
-  
-  <!-- Category Header -->
-  <g transform="translate(24, 22)">
-    <rect width="36" height="36" rx="10" fill="#ffedd5" stroke="#ea580c" stroke-width="1.2"/>
-    <text x="18" y="24" text-anchor="middle" font-size="18">☁️</text>
-    <text x="48" y="17" font-family="Inter,sans-serif" font-size="17" font-weight="900" fill="#0f172a">Cloud &amp; DevOps Pipelines</text>
-    <text x="48" y="32" font-family="'Fira Code',monospace" font-size="11" font-weight="600" fill="#ea580c">AWS Certified · Docker · CI/CD</text>
+
+<!-- ==================== BENTO CARD 4: BLOCKCHAIN & WEB3 (Bottom Left: 570 x 195) ==================== -->
+<g transform="translate(24, 266)" filter="url(#bento-sh)">
+  <rect width="565" height="195" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="0" width="565" height="32" rx="8" fill="#ffffff"/>
+  <rect x="0" y="31" width="565" height="1" fill="#e2e8f0"/>
+  <circle cx="16" cy="16" r="4" fill="#8250df"/>
+  <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">Decentralized Web &amp; Smart Contracts</text>
+
+  <g transform="translate(16, 46)">
+    <g transform="translate(0,0)"><rect width="74" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="37" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Solidity</text></g>
+    <g transform="translate(82,0)"><rect width="66" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="33" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">IPFS</text></g>
+    <g transform="translate(156,0)"><rect width="78" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Ethers.js</text></g>
+    <g transform="translate(242,0)"><rect width="78" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="39" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Algorand</text></g>
+    <g transform="translate(328,0)"><rect width="72" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="36" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">PyTeal</text></g>
+    <g transform="translate(408,0)"><rect width="84" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="42" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">MetaMask</text></g>
   </g>
 
-  <!-- AWS Badge -->
-  <g transform="translate(24, 76)">
-    <rect width="332" height="48" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <text x="24" y="29" font-size="16">☁️</text>
-    <text x="48" y="25" font-family="Inter,sans-serif" font-size="14" font-weight="900" fill="#0f172a">AWS Cloud Infrastructure</text>
-    <text x="48" y="39" font-family="Inter,sans-serif" font-size="11.5" font-weight="500" fill="#64748b">EC2 · S3 · KMS · IAM · Lambda</text>
-    <rect x="238" y="14" width="82" height="20" rx="10" fill="#fff7ed"/>
-    <text x="279" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="9.5" font-weight="700" fill="#c2410c">AWS CERT x2</text>
-  </g>
-
-  <!-- Docker & CI/CD Row -->
-  <g transform="translate(24, 134)">
-    <rect width="158" height="48" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <text x="22" y="30" font-size="16">🐳</text>
-    <text x="44" y="24" font-family="Inter,sans-serif" font-size="13.5" font-weight="900" fill="#0f172a">Docker</text>
-    <text x="44" y="38" font-family="'Fira Code',monospace" font-size="10" font-weight="500" fill="#64748b">Containers</text>
-  </g>
-
-  <g transform="translate(198, 134)">
-    <rect width="158" height="48" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <text x="22" y="30" font-size="16">🚀</text>
-    <text x="44" y="24" font-family="Inter,sans-serif" font-size="13.5" font-weight="900" fill="#0f172a">CI/CD Pipeline</text>
-    <text x="44" y="38" font-family="'Fira Code',monospace" font-size="10" font-weight="500" fill="#64748b">GitHub Actions</text>
-  </g>
-
-  <!-- Deployment targets footer -->
-  <g transform="translate(24, 192)">
-    <rect width="332" height="38" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="14" y="24" font-family="'Fira Code',monospace" font-size="11" font-weight="700" fill="#0284c7">TARGETS:</text>
-    <text x="76" y="24" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#334155">Vercel · Netlify · Render · Linux VPS</text>
-  </g>
+  <text x="16" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#334155">Research: Decentralized Consent Architecture (Provisional Patent 2025)</text>
+  <text x="16" y="124" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#16a34a">✓ Immutable patient-controlled consent and revocation</text>
+  <text x="16" y="144" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#0969da">✓ IPFS CID hashing &amp; deterministic EVM state verification</text>
+  <text x="16" y="164" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#8250df">✓ Tech Lead @ Algorand Developers Club</text>
 </g>
-<!-- Bento Card 4: Web3, Security & Cryptography -->
-<g transform="translate(810, 80)" filter="url(#bento-shadow)">
-  <rect width="360" height="510" rx="16" fill="url(#card-glass)" stroke="#cbd5e1" stroke-width="1.2"/>
-  <rect x="0" y="0" width="360" height="5" rx="2.5" fill="url(#grad-purple)"/>
-  
-  <!-- Category Header -->
-  <g transform="translate(24, 24)">
-    <rect width="36" height="36" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
-    <text x="18" y="24" text-anchor="middle" font-size="18">🔐</text>
-    <text x="48" y="17" font-family="Inter,sans-serif" font-size="17" font-weight="900" fill="#0f172a">Security &amp; Web3 Systems</text>
-    <text x="48" y="32" font-family="'Fira Code',monospace" font-size="11" font-weight="600" fill="#7c3aed">Smart Contracts · Applied Cryptography</text>
+
+<!-- ==================== BENTO CARD 5: METHODOLOGY & ENGINEERING STANDARDS (Bottom Right: 570 x 195) ==================== -->
+<g transform="translate(606, 266)" filter="url(#bento-sh)">
+  <rect width="570" height="195" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="0" y="0" width="570" height="32" rx="8" fill="#ffffff"/>
+  <rect x="0" y="31" width="570" height="1" fill="#e2e8f0"/>
+  <circle cx="16" cy="16" r="4" fill="#0284c7"/>
+  <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">Software Engineering Principles &amp; Workflow</text>
+
+  <g transform="translate(16, 46)">
+    <g transform="translate(0,0)"><rect width="102" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="51" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Clean Code</text></g>
+    <g transform="translate(110,0)"><rect width="112" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="56" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">CI/CD Pipelines</text></g>
+    <g transform="translate(230,0)"><rect width="110" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="55" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">API First Design</text></g>
+    <g transform="translate(348,0)"><rect width="104" height="26" rx="5" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/><text x="52" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0f172a">Zero Trust Sec</text></g>
   </g>
 
-  <!-- Solidity -->
-  <g transform="translate(24, 80)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#7c3aed"/>
-    <g transform="translate(32, 33)">
-      <polygon points="0,-12 9,0 0,5 -9,0" fill="#7c3aed" opacity="0.95"/>
-      <polygon points="0,6 9,1 0,12 -9,1" fill="#7c3aed" opacity="0.75"/>
-    </g>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">Solidity &amp; Smart Contracts</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">Deterministic state transitions, RBAC, access logic</text>
-    <rect x="238" y="14" width="60" height="20" rx="10" fill="#f5f3ff"/>
-    <text x="268" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#6d28d9">EVM</text>
-  </g>
-
-  <!-- AES-256 & AWS KMS -->
-  <g transform="translate(24, 156)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#0284c7"/>
-    <text x="32" y="40" text-anchor="middle" font-size="20">🛡️</text>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">AES-256 + AWS KMS</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">Client-side envelope encryption with dynamic DEKs</text>
-    <rect x="228" y="14" width="70" height="20" rx="10" fill="#eff6ff"/>
-    <text x="263" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#1e40af">PATENT</text>
-  </g>
-
-  <!-- IPFS & Decentralized Storage -->
-  <g transform="translate(24, 232)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#0d9488"/>
-    <text x="32" y="40" text-anchor="middle" font-size="20">📦</text>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">IPFS &amp; Content Addressing</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">Immutable decentralized storage, CID verification</text>
-    <rect x="238" y="14" width="60" height="20" rx="10" fill="#ccfbf1"/>
-    <text x="268" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#0f766e">P2P</text>
-  </g>
-
-  <!-- Databases: PostgreSQL & MongoDB -->
-  <g transform="translate(24, 308)">
-    <rect width="312" height="66" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
-    <rect x="0" y="0" width="4" height="66" rx="2" fill="#16a34a"/>
-    <text x="32" y="40" text-anchor="middle" font-size="20">🍃</text>
-    <text x="62" y="28" font-family="Inter,sans-serif" font-size="15" font-weight="900" fill="#0f172a">MongoDB &amp; PostgreSQL</text>
-    <text x="62" y="48" font-family="Inter,sans-serif" font-size="12" font-weight="500" fill="#64748b">Relational modeling, document stores, indexing</text>
-    <rect x="230" y="14" width="68" height="20" rx="10" fill="#f0fdf4"/>
-    <text x="264" y="28" text-anchor="middle" font-family="'Fira Code',monospace" font-size="10" font-weight="700" fill="#15803d">CERTIFIED</text>
-  </g>
-
-  <!-- Web3 Stack Tags Footer -->
-  <g transform="translate(24, 394)">
-    <rect width="312" height="96" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-    <text x="16" y="26" font-family="'Fira Code',monospace" font-size="11" font-weight="700" fill="#7c3aed">WEB3 &amp; IDENTITY TOOLING</text>
-    
-    <g transform="translate(16, 38)">
-      <rect width="90" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-      <text x="45" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#334155">MetaMask</text>
-    </g>
-    <g transform="translate(112, 38)">
-      <rect width="84" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-      <text x="42" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#334155">Ethers.js</text>
-    </g>
-    <g transform="translate(202, 38)">
-      <rect width="94" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
-      <text x="47" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#334155">Algorand SDK</text>
-    </g>
-
-    <text x="16" y="82" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#64748b">Role-Based Access Control · Nonce Challenge Auth</text>
-  </g>
-</g>
-<!-- Live Dynamic Pulse Circuit Bus -->
-<path d="M390 180 L410 180" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="4 4">
-  <animate attributeName="stroke-dashoffset" values="0;-16" dur="1s" repeatCount="indefinite"/>
-</path>
-<circle cx="400" cy="180" r="3" fill="#0284c7">
-  <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
-</circle>
-
-<path d="M790 180 L810 180" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4 4">
-  <animate attributeName="stroke-dashoffset" values="0;-16" dur="1s" repeatCount="indefinite"/>
-</path>
-<circle cx="800" cy="180" r="3" fill="#7c3aed">
-  <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
-</circle>
-
-<path d="M600 320 L600 340" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="4 4">
-  <animate attributeName="stroke-dashoffset" values="0;-16" dur="1s" repeatCount="indefinite"/>
-</path>
-<circle cx="600" cy="330" r="3" fill="#10b981">
-  <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
-</circle>
-
+  <text x="16" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#334155">Practices: Rigorous type-safety, test coverage, and documentation</text>
+  <text x="16" y="124" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#16a34a">✓ Semantic Git commits and branch protection workflows</text>
+  <text x="16" y="144" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#0969da">✓ Automated linting, test suites and pre-commit hooks</text>
+  <text x="16" y="164" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace" font-size="10.5" fill="#8250df">✓ Continuous benchmarking &amp; bundle size optimization</text>
 </g>
 </svg>
