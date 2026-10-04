@@ -1,26 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-label="Experience timeline"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#040a16"/><stop offset=".6" stop-color="#0a1836"/><stop offset="1" stop-color="#06283a"/></linearGradient></defs><line x1="70" y1="30" x2="70" y2="550" stroke="#334155" stroke-width="3"/><line x1="70" y1="30" x2="70" y2="550" stroke="#22d3ee" stroke-width="3" stroke-dasharray="14 200"><animate attributeName="stroke-dashoffset" values="0;-214" dur="5s" repeatCount="indefinite"/></line><g transform="translate(0,20)"><circle cx="70" cy="42" r="14" fill="#22d3ee" opacity=".2"><animate attributeName="r" values="12;22;12" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="70" cy="42" r="8" fill="#22d3ee"/>
-<rect x="120" y="0" width="1060" height="92" rx="14" fill="url(#bg)" stroke="#22d3ee" stroke-opacity=".45"/><rect x="120" y="0" width="5" height="92" rx="2.5" fill="#22d3ee"/>
-<text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="800" fill="#fff">Open Source AI Fellow</text>
-<text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#22d3ee" font-weight="600">Good Health 24/7 (MedPilot) · Remote</text>
-<text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#94a3b8">Core product development and engineering deliverables for the MedPilot digital healthcare product.</text>
-<g transform="translate(1010,16)"><rect width="150" height="28" rx="14" fill="#22d3ee" fill-opacity=".15" stroke="#22d3ee" stroke-opacity=".6"/><text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">Jul 2026 – Present</text></g></g><g transform="translate(0,132)"><circle cx="70" cy="42" r="14" fill="#f472b6" opacity=".2"><animate attributeName="r" values="12;22;12" dur="3s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="70" cy="42" r="8" fill="#f472b6"/>
-<rect x="120" y="0" width="1060" height="92" rx="14" fill="url(#bg)" stroke="#f472b6" stroke-opacity=".45"/><rect x="120" y="0" width="5" height="92" rx="2.5" fill="#f472b6"/>
-<text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="800" fill="#fff">Cybersecurity Intern</text>
-<text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#f472b6" font-weight="600">Vaults of Code · Remote</text>
-<text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#94a3b8">Application security, secure software development and security practices through hands-on technical tasks.</text>
-<g transform="translate(1010,16)"><rect width="150" height="28" rx="14" fill="#f472b6" fill-opacity=".15" stroke="#f472b6" stroke-opacity=".6"/><text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">May 2026 – Jul 2026</text></g></g><g transform="translate(0,244)"><circle cx="70" cy="42" r="14" fill="#a78bfa" opacity=".2"><animate attributeName="r" values="12;22;12" dur="3s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="70" cy="42" r="8" fill="#a78bfa"/>
-<rect x="120" y="0" width="1060" height="92" rx="14" fill="url(#bg)" stroke="#a78bfa" stroke-opacity=".45"/><rect x="120" y="0" width="5" height="92" rx="2.5" fill="#a78bfa"/>
-<text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="800" fill="#fff">Tech Lead</text>
-<text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#a78bfa" font-weight="600">Algorand Club · Hyderabad</text>
-<text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#94a3b8">Led Algorand SDK / Solidity work, mentored a 10-member team and ran 5+ Web3 workshops (+40% participation).</text>
-<g transform="translate(1010,16)"><rect width="150" height="28" rx="14" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".6"/><text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">Mar 2025 – Present</text></g></g><g transform="translate(0,356)"><circle cx="70" cy="42" r="14" fill="#f59e0b" opacity=".2"><animate attributeName="r" values="12;22;12" dur="3s" begin="1.2000000000000002s" repeatCount="indefinite"/></circle><circle cx="70" cy="42" r="8" fill="#f59e0b"/>
-<rect x="120" y="0" width="1060" height="92" rx="14" fill="url(#bg)" stroke="#f59e0b" stroke-opacity=".45"/><rect x="120" y="0" width="5" height="92" rx="2.5" fill="#f59e0b"/>
-<text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="800" fill="#fff">AI Developer</text>
-<text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#f59e0b" font-weight="600">Viswam AI · Remote</text>
-<text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#94a3b8">Built AI-powered applications and datasets with intelligent features for real-world use cases.</text>
-<g transform="translate(1010,16)"><rect width="150" height="28" rx="14" fill="#f59e0b" fill-opacity=".15" stroke="#f59e0b" stroke-opacity=".6"/><text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">May 2025 – Aug 2025</text></g></g><g transform="translate(0,468)"><circle cx="70" cy="42" r="14" fill="#34d399" opacity=".2"><animate attributeName="r" values="12;22;12" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle><circle cx="70" cy="42" r="8" fill="#34d399"/>
-<rect x="120" y="0" width="1060" height="92" rx="14" fill="url(#bg)" stroke="#34d399" stroke-opacity=".45"/><rect x="120" y="0" width="5" height="92" rx="2.5" fill="#34d399"/>
-<text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="800" fill="#fff">Web Master &amp; Graphic Designer</text>
-<text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#34d399" font-weight="600">IEEE Student Branch · Hyderabad</text>
-<text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#94a3b8">React/Tailwind event sites cutting page load by 50%; GitHub Actions + Vercel CI/CD and visual branding.</text>
-<g transform="translate(1010,16)"><rect width="150" height="28" rx="14" fill="#34d399" fill-opacity=".15" stroke="#34d399" stroke-opacity=".6"/><text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#e2e8f0">Dec 2024 – Present</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 590" width="1200" height="590" role="img" aria-label="Experience timeline">
+<defs>
+  <filter id="time-sh" x="-5%" y="-10%" width="110%" height="130%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.06"/>
+  </filter>
+</defs>
+<line x1="70" y1="30" x2="70" y2="550" stroke="#cbd5e1" stroke-width="3"/>
+<line x1="70" y1="30" x2="70" y2="550" stroke="#0284c7" stroke-width="3" stroke-dasharray="14 200">
+  <animate attributeName="stroke-dashoffset" values="0;-214" dur="5s" repeatCount="indefinite"/>
+</line>
+<g transform="translate(0,20)">
+  <circle cx="70" cy="42" r="14" fill="#0284c7" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#0284c7"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#0284c7"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Open Source AI Fellow</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#0284c7" font-weight="700">Good Health 24/7 (MedPilot) · Remote</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Core product development and engineering deliverables for the MedPilot digital healthcare product.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">Jul 2026 – Present</text>
+    </g>
+  </g>
+</g><g transform="translate(0,132)">
+  <circle cx="70" cy="42" r="14" fill="#db2777" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#db2777"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#db2777"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Cybersecurity Intern</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#db2777" font-weight="700">Vaults of Code · Remote</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Application security, secure software development and security practices through hands-on technical tasks.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">May 2026 – Jul 2026</text>
+    </g>
+  </g>
+</g><g transform="translate(0,244)">
+  <circle cx="70" cy="42" r="14" fill="#7c3aed" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#7c3aed"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#7c3aed"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Tech Lead</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#7c3aed" font-weight="700">Algorand Club · Hyderabad</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Led Algorand SDK / Solidity work, mentored a 10-member team and ran 5+ Web3 workshops (+40% participation).</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">Mar 2025 – Present</text>
+    </g>
+  </g>
+</g><g transform="translate(0,356)">
+  <circle cx="70" cy="42" r="14" fill="#d97706" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#d97706"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#d97706"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">AI Developer</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#d97706" font-weight="700">Viswam AI · Remote</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">Built AI-powered applications and datasets with intelligent features for real-world use cases.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">May 2025 – Aug 2025</text>
+    </g>
+  </g>
+</g><g transform="translate(0,468)">
+  <circle cx="70" cy="42" r="14" fill="#16a34a" opacity=".15">
+    <animate attributeName="r" values="12;22;12" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="42" r="8" fill="#16a34a"/>
+  <g filter="url(#time-sh)">
+    <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="120" y="0" width="6" height="92" rx="3" fill="#16a34a"/>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Web Master & Graphic Designer</text>
+    <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#16a34a" font-weight="700">IEEE Student Branch · Hyderabad</text>
+    <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">React/Tailwind event sites cutting page load by 50%; GitHub Actions + Vercel CI/CD and visual branding.</text>
+    <g transform="translate(1010,16)">
+      <rect width="150" height="28" rx="14" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="75" y="19" text-anchor="middle" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" fill="#334155">Dec 2024 – Present</text>
+    </g>
+  </g>
+</g>
+</svg>
