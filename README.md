@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- Browser Frame -->
-<img src="assets/browser-bar.svg?v=3" alt="Browser Navigation Bar" width="100%" />
+<img src="assets/browser-bar.svg?v=4" alt="Browser Navigation Bar" width="100%" />
 
 <!-- Hero Banner -->
-<img src="assets/banner.svg?v=3" alt="Puneeth Manoj Sai - Front-End & Full Stack Engineer" width="100%" />
+<img src="assets/banner.svg?v=4" alt="Puneeth Manoj Sai - Front-End & Full Stack Engineer" width="100%" />
 
 <br/>
 
 <!-- Impact Metrics -->
-<img src="assets/metrics.svg?v=3" alt="Key Impact Metrics" width="100%" />
+<img src="assets/metrics.svg?v=4" alt="Key Impact Metrics" width="100%" />
 
 <br/><br/>
 
@@ -25,7 +25,7 @@
 
 ---
 
-<img src="assets/h-about.svg?v=3" alt="01 / About Me" width="100%" />
+<img src="assets/h-about.svg?v=4" alt="01 / About Me" width="100%" />
 
 - **Focus:** Full-Stack Engineering, Cloud Architecture (AWS), Application Security & Decentralized Systems.
 - **Education:** B.Tech in Computer Science & Information Technology, **KL University, Hyderabad** (2023–2027).
@@ -34,14 +34,14 @@
 
 ---
 
-<img src="assets/h-work.svg?v=3" alt="02 / Featured Work" width="100%" />
+<img src="assets/h-work.svg?v=4" alt="02 / Featured Work" width="100%" />
 
 ### 🌟 Flagship Project: Ojas Raksha
 > **Decentralized, Privacy-Focused Healthcare Consent & Record Architecture**  
 > *Provisional Patent Filed (2025) · Research Papers Under Peer Review (2026)*
 
 <div align="center">
-  <img src="assets/ojas-architecture.svg?v=3" alt="Ojas Raksha System Architecture" width="100%" />
+  <img src="assets/ojas-architecture.svg?v=4" alt="Ojas Raksha System Architecture" width="100%" />
 </div>
 
 - **Problem:** Centralized health databases suffer from unauthorized third-party access, lack of transparent patient consent revocation mechanisms, and single-point-of-failure vulnerabilities.
@@ -86,37 +86,31 @@
 
 ---
 
-<img src="assets/h-stack.svg?v=3" alt="04 / Tech Stack" width="100%" />
+<img src="assets/h-stack.svg?v=4" alt="04 / Tech Stack" width="100%" />
 
 <div align="center">
-  <img src="assets/skills-globe.svg?v=3" alt="Engineering Matrix &amp; Core Tech Architecture" width="100%" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="assets/stack.svg?v=3" alt="Categorized Tech Stack" width="100%" />
+  <img src="assets/skills-globe.svg?v=4" alt="Engineering Matrix &amp; Core Tech Architecture" width="100%" />
 </div>
 
 ---
 
-<img src="assets/h-exp.svg?v=3" alt="03 / Experience" width="100%" />
+<img src="assets/h-exp.svg?v=4" alt="03 / Experience" width="100%" />
 
 <div align="center">
-  <img src="assets/timeline.svg?v=3" alt="Experience Timeline" width="100%" />
+  <img src="assets/timeline.svg?v=4" alt="Experience Timeline" width="100%" />
 </div>
 
 ---
 
-<img src="assets/h-certs.svg?v=3" alt="05 / Certifications & Recognition" width="100%" />
+<img src="assets/h-certs.svg?v=4" alt="05 / Certifications & Recognition" width="100%" />
 
 <div align="center">
-  <img src="assets/certs.svg?v=3" alt="Certifications and Credentials" width="100%" />
+  <img src="assets/certs.svg?v=4" alt="Certifications and Credentials" width="100%" />
 </div>
 
 ---
 
-<img src="assets/h-stats.svg?v=3" alt="06 / Impact & Activity" width="100%" />
+<img src="assets/h-stats.svg?v=4" alt="06 / Impact & Activity" width="100%" />
 
 <div align="center">
   <img height="175" src="https://github-readme-stats.vercel.app/api?username=pmanojsai&show_icons=true&theme=default&hide_border=false&border_color=e2e8f0&title_color=0f172a&text_color=475569&icon_color=0969da&bg_color=ffffff&count_private=true" alt="GitHub stats" />
@@ -131,7 +125,7 @@
 
 <div align="center">
 
-<img src="assets/footer.svg?v=3" alt="Let's build something great together" width="100%" />
+<img src="assets/footer.svg?v=4" alt="Let's build something great together" width="100%" />
 
 <br/>
 
