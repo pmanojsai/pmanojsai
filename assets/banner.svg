@@ -49,8 +49,7 @@
   <!-- Left Accent Bar -->
   <rect x="0" y="0" width="7" height="380" fill="url(#bar-accent)"/>
 
-  <!-- ==================== LEFT COLUMN: HERO IDENTITY (Max width 560px) ==================== -->
-  <!-- Status Badge -->
+  <!-- ==================== LEFT COLUMN: HERO IDENTITY ==================== -->
   <g transform="translate(56, 36)">
     <rect width="186" height="26" rx="13" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
     <circle cx="13" cy="13" r="3.5" fill="#0284c7">
@@ -62,7 +61,7 @@
   <!-- Name -->
   <text x="56" y="112" font-family="Inter,-apple-system,sans-serif" font-size="52" font-weight="900" fill="url(#hero-tx)">Puneeth Manoj Sai</text>
   
-  <!-- Subtitle Lines (Formatted cleanly without any clipping) -->
+  <!-- Subtitle Lines -->
   <text x="56" y="148" font-family="Inter,-apple-system,sans-serif" font-size="18" fill="#1e293b" font-weight="800">Front-End &amp; Full Stack Engineer</text>
   <text x="56" y="172" font-family="Inter,-apple-system,sans-serif" font-size="13.5" fill="#64748b" font-weight="600">Building scalable web systems, cloud infrastructure &amp; Web3.</text>
 
@@ -93,7 +92,7 @@
     </g>
   </g>
 
-  <!-- 4 Spotlight Micro Badges (Total width = 546px, perfectly centered in 560px space) -->
+  <!-- 4 Spotlight Micro Badges -->
   <g transform="translate(56, 268)">
     <g transform="translate(0, 0)">
       <rect width="116" height="32" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
@@ -117,12 +116,11 @@
     </g>
   </g>
 
-  <!-- ==================== RIGHT COLUMN: REACT BITS TERMINAL CARD (Width: 490px, x=654 to 1144) ==================== -->
+  <!-- ==================== RIGHT COLUMN: REACT BITS TERMINAL CARD ==================== -->
   <g transform="translate(654, 36)" filter="url(#hero-card-sh)">
     <rect width="490" height="308" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
     <rect x="0" y="0" width="490" height="4" rx="2" fill="url(#bar-accent)"/>
     
-    <!-- Header of Deck -->
     <g transform="translate(20, 18)">
       <circle cx="6" cy="8" r="4" fill="#ff5f56"/>
       <circle cx="20" cy="8" r="4" fill="#ffbd2e"/>
@@ -133,7 +131,6 @@
     </g>
     <line x1="0" y1="44" x2="490" y2="44" stroke="#f1f5f9" stroke-width="1.2"/>
 
-    <!-- Code Block representation in React Bits style -->
     <g transform="translate(20, 68)" font-family="'Fira Code',Consolas,monospace" font-size="12" font-weight="600">
       <text x="0" y="0" fill="#64748b"><tspan fill="#7c3aed">const</tspan> engineer <tspan fill="#0284c7">=</tspan> {</text>
       <text x="18" y="24" fill="#0f172a">name: <tspan fill="#059669">'Puneeth Manoj Sai'</tspan>,</text>
@@ -145,7 +142,6 @@
       <text x="0" y="168" fill="#64748b">};</text>
     </g>
 
-    <!-- Bottom Stack Beam -->
     <g transform="translate(20, 260)">
       <rect width="450" height="30" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
       <text x="14" y="19" font-family="'Fira Code',monospace" font-size="11" font-weight="700" fill="#0284c7">STACK BUS:</text>

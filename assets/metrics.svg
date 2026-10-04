@@ -51,7 +51,7 @@
   </circle>
   <text x="20" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="48" font-weight="900" fill="#d97706">50%</text>
   <text x="20" y="108" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="800" fill="#0f172a">faster page load</text>
-  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">performance & CI/CD</text>
+  <text x="20" y="130" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#64748b">performance &amp; CI/CD</text>
   <rect x="20" y="146" width="140" height="4" rx="2" fill="#f1f5f9"/>
   <rect x="20" y="146" width="40" height="4" rx="2" fill="#d97706">
     <animate attributeName="width" values="20;140;20" dur="6.2s" repeatCount="indefinite"/>

@@ -80,7 +80,7 @@
   <g filter="url(#time-sh)">
     <rect x="120" y="0" width="1060" height="92" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
     <rect x="120" y="0" width="6" height="92" rx="3" fill="#16a34a"/>
-    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Web Master & Graphic Designer</text>
+    <text x="148" y="34" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="900" fill="#0f172a">Web Master &amp; Graphic Designer</text>
     <text x="148" y="58" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" fill="#16a34a" font-weight="700">IEEE Student Branch · Hyderabad</text>
     <text x="148" y="80" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" fill="#64748b">React/Tailwind event sites cutting page load by 50%; GitHub Actions + Vercel CI/CD and visual branding.</text>
     <g transform="translate(1010,16)">

@@ -125,10 +125,6 @@
   <br/><br/>
 
   <img src="https://streak-stats.demolab.com/?user=pmanojsai&theme=default&hide_border=false&border=cbd5e1&stroke=0284c7&ring=0284c7&fire=ea580c&currStreakLabel=0f172a&sideLabels=475569&dates=64748b&background=ffffff" alt="GitHub streak" />
-
-  <br/><br/>
-
-  <img src="https://ghchart.rzuo.co/0284c7/pmanojsai.svg" alt="Contribution chart" width="100%" />
 </div>
 
 ---

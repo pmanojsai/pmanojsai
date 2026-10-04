@@ -38,7 +38,6 @@ def generate_browser_bar():
 </svg>'''
 
 def generate_banner():
-    # 100% 2D React Bits Spotlight Hero with perfectly proportioned non-cutting layout
     return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Puneeth Manoj Sai - Front-End &amp; Full Stack Engineer">
 <defs>
   <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
@@ -90,8 +89,7 @@ def generate_banner():
   <!-- Left Accent Bar -->
   <rect x="0" y="0" width="7" height="380" fill="url(#bar-accent)"/>
 
-  <!-- ==================== LEFT COLUMN: HERO IDENTITY (Max width 560px) ==================== -->
-  <!-- Status Badge -->
+  <!-- ==================== LEFT COLUMN: HERO IDENTITY ==================== -->
   <g transform="translate(56, 36)">
     <rect width="186" height="26" rx="13" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
     <circle cx="13" cy="13" r="3.5" fill="#0284c7">
@@ -103,7 +101,7 @@ def generate_banner():
   <!-- Name -->
   <text x="56" y="112" font-family="Inter,-apple-system,sans-serif" font-size="52" font-weight="900" fill="url(#hero-tx)">Puneeth Manoj Sai</text>
   
-  <!-- Subtitle Lines (Formatted cleanly without any clipping) -->
+  <!-- Subtitle Lines -->
   <text x="56" y="148" font-family="Inter,-apple-system,sans-serif" font-size="18" fill="#1e293b" font-weight="800">Front-End &amp; Full Stack Engineer</text>
   <text x="56" y="172" font-family="Inter,-apple-system,sans-serif" font-size="13.5" fill="#64748b" font-weight="600">Building scalable web systems, cloud infrastructure &amp; Web3.</text>
 
@@ -134,7 +132,7 @@ def generate_banner():
     </g>
   </g>
 
-  <!-- 4 Spotlight Micro Badges (Total width = 546px, perfectly centered in 560px space) -->
+  <!-- 4 Spotlight Micro Badges -->
   <g transform="translate(56, 268)">
     <g transform="translate(0, 0)">
       <rect width="116" height="32" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
@@ -158,12 +156,11 @@ def generate_banner():
     </g>
   </g>
 
-  <!-- ==================== RIGHT COLUMN: REACT BITS TERMINAL CARD (Width: 490px, x=654 to 1144) ==================== -->
+  <!-- ==================== RIGHT COLUMN: REACT BITS TERMINAL CARD ==================== -->
   <g transform="translate(654, 36)" filter="url(#hero-card-sh)">
     <rect width="490" height="308" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
     <rect x="0" y="0" width="490" height="4" rx="2" fill="url(#bar-accent)"/>
     
-    <!-- Header of Deck -->
     <g transform="translate(20, 18)">
       <circle cx="6" cy="8" r="4" fill="#ff5f56"/>
       <circle cx="20" cy="8" r="4" fill="#ffbd2e"/>
@@ -174,7 +171,6 @@ def generate_banner():
     </g>
     <line x1="0" y1="44" x2="490" y2="44" stroke="#f1f5f9" stroke-width="1.2"/>
 
-    <!-- Code Block representation in React Bits style -->
     <g transform="translate(20, 68)" font-family="'Fira Code',Consolas,monospace" font-size="12" font-weight="600">
       <text x="0" y="0" fill="#64748b"><tspan fill="#7c3aed">const</tspan> engineer <tspan fill="#0284c7">=</tspan> {</text>
       <text x="18" y="24" fill="#0f172a">name: <tspan fill="#059669">'Puneeth Manoj Sai'</tspan>,</text>
@@ -186,7 +182,6 @@ def generate_banner():
       <text x="0" y="168" fill="#64748b">};</text>
     </g>
 
-    <!-- Bottom Stack Beam -->
     <g transform="translate(20, 260)">
       <rect width="450" height="30" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
       <text x="14" y="19" font-family="'Fira Code',monospace" font-size="11" font-weight="700" fill="#0284c7">STACK BUS:</text>
@@ -201,7 +196,7 @@ def generate_metrics():
         {"val": "800+", "title": "user interactions", "sub": "IEEE branch website", "color": "#0284c7", "x": 0, "dur": "5.0s"},
         {"val": "300+", "title": "GitHub commits", "sub": "high-velocity builder", "color": "#0d9488", "x": 204, "dur": "5.4s"},
         {"val": "10+", "title": "role dashboards", "sub": "Ojas Raksha dApp", "color": "#16a34a", "x": 408, "dur": "5.8s"},
-        {"val": "50%", "title": "faster page load", "sub": "performance & CI/CD", "color": "#d97706", "x": 612, "dur": "6.2s"},
+        {"val": "50%", "title": "faster page load", "sub": "performance &amp; CI/CD", "color": "#d97706", "x": 612, "dur": "6.2s"},
         {"val": "4+", "title": "certifications", "sub": "AWS · Mongo · SF", "color": "#7c3aed", "x": 816, "dur": "6.6s"},
         {"val": "1", "title": "provisional patent", "sub": "filed 2025", "color": "#db2777", "x": 1020, "dur": "7.0s"}
     ]
@@ -233,7 +228,10 @@ def generate_metrics():
 </svg>'''
 
 def generate_header(num, title, sub, color):
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="{title}">
+    # Escape XML entities for attributes
+    escaped_title = title.replace("&", "&amp;")
+    escaped_sub = sub.replace("&", "&amp;")
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96" role="img" aria-label="{escaped_title}">
 <defs>
   <linearGradient id="h-bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#ffffff"/>
@@ -253,8 +251,8 @@ def generate_header(num, title, sub, color):
   <animate attributeName="opacity" values="1;.5;1" dur="3s" repeatCount="indefinite"/>
 </rect>
 <text x="52" y="46" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="{color}" letter-spacing="2">{num}</text>
-<text x="52" y="76" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="900" fill="#0f172a">{title}</text>
-<text x="1172" y="58" text-anchor="end" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#64748b">{sub}</text>
+<text x="52" y="76" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="900" fill="#0f172a">{escaped_title}</text>
+<text x="1172" y="58" text-anchor="end" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#64748b">{escaped_sub}</text>
 <rect x="0" y="93" width="1200" height="3" fill="#e2e8f0"/>
 <rect x="-300" y="93" width="300" height="3" fill="url(#h-laser)">
   <animate attributeName="x" values="-300;1200" dur="4.0s" repeatCount="indefinite"/>
@@ -525,7 +523,7 @@ def generate_timeline():
             "begin": "1.2s"
         },
         {
-            "role": "Web Master & Graphic Designer",
+            "role": "Web Master &amp; Graphic Designer",
             "org": "IEEE Student Branch · Hyderabad",
             "desc": "React/Tailwind event sites cutting page load by 50%; GitHub Actions + Vercel CI/CD and visual branding.",
             "date": "Dec 2024 – Present",
