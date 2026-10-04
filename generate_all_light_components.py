@@ -2,30 +2,29 @@ import math
 import os
 
 def generate_browser_bar():
-    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="Browser window: https://puneethmanojsai.vercel.app">
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="Browser Navigation Bar">
 <defs>
-  <linearGradient id="bb-line" x1="0" x2="1">
+  <linearGradient id="bb-sweep" x1="0" x2="1">
     <stop offset="0" stop-color="#0284c7" stop-opacity="0"/>
     <stop offset=".5" stop-color="#0284c7"/>
     <stop offset="1" stop-color="#0284c7" stop-opacity="0"/>
   </linearGradient>
-  <filter id="bb-shadow" x="-5%" y="-10%" width="110%" height="130%">
-    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.06"/>
+  <filter id="rb-sh" x="-5%" y="-10%" width="110%" height="130%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.05"/>
   </filter>
 </defs>
 <path d="M0 52 V16 Q0 0 16 0 H1184 Q1200 0 1200 16 V52 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
 <!-- Window Traffic Controls -->
-<circle cx="28" cy="26" r="6.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.8"/>
-<circle cx="50" cy="26" r="6.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.8"/>
-<circle cx="72" cy="26" r="6.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.8"/>
-<!-- Address Capsule -->
-<rect x="106" y="10" width="988" height="32" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#bb-shadow)"/>
-<!-- Lock Icon -->
-<path d="M128 22 a4.5 4.5 0 0 1 9 0 v3 h-9z M125 25 h15 v10 h-15z" fill="#10b981" transform="translate(0,-1) scale(0.95)"/>
-<text x="154" y="31" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#334155">https://puneethmanojsai.vercel.app</text>
+<circle cx="28" cy="26" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.7"/>
+<circle cx="48" cy="26" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.7"/>
+<circle cx="68" cy="26" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.7"/>
+<!-- Address Capsule (React Bits Spotlight Style) -->
+<rect x="96" y="10" width="1008" height="32" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#rb-sh)"/>
+<path d="M118 22 a4.5 4.5 0 0 1 9 0 v3 h-9z M115 25 h15 v10 h-15z" fill="#10b981" transform="translate(0,-1) scale(0.95)"/>
+<text x="142" y="31" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#334155">https://puneethmanojsai.vercel.app</text>
 <!-- Live Status Pill -->
-<g transform="translate(1096, 12)">
-  <rect width="84" height="28" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+<g transform="translate(1106, 12)">
+  <rect width="78" height="28" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
   <circle cx="16" cy="14" r="4" fill="#10b981">
     <animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
@@ -33,139 +32,172 @@ def generate_browser_bar():
 </g>
 <!-- Hairline Scanner -->
 <rect x="0" y="50" width="1200" height="2" fill="#e2e8f0"/>
-<rect x="-300" y="50" width="300" height="2" fill="url(#bb-line)">
+<rect x="-300" y="50" width="300" height="2" fill="url(#bb-sweep)">
   <animate attributeName="x" values="-300;1200" dur="3.5s" repeatCount="indefinite"/>
 </rect>
 </svg>'''
 
 def generate_banner():
-    # Read animated 3D sphere polyhedra from existing banner to preserve exact geometric keyframe smoothness
-    # and re-theme with ultra-crisp light mode gradient colors
-    with open("assets/banner.svg", "r", encoding="utf-8") as f:
-        orig = f.read()
-
-    # Extract polygon animations
-    poly_start = orig.find("<polygon")
-    poly_end = orig.rfind("</polygon>") + 10
-    polys = orig[poly_start:poly_end]
-
-    # Transform dark polygons to light palette
-    polys_light = polys.replace('fill="#16496c"', 'fill="#bae6fd"')
-    polys_light = polys_light.replace('fill="#4487ac"', 'fill="#7dd3fc"')
-    polys_light = polys_light.replace('fill="#6cbde5"', 'fill="#e0f2fe"')
-    polys_light = polys_light.replace('fill="#347196"', 'fill="#93c5fd"')
-    polys_light = polys_light.replace('stroke="#67e8f9"', 'stroke="#0284c7"')
-    polys_light = polys_light.replace('stroke-opacity=".35"', 'stroke-opacity=".55"')
-
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Puneeth Manoj Sai - Front-End &amp; Full Stack Engineer">
+    # 100% 2D React Bits Spotlight Hero & Animated Terminal Deck (No 3D polygons)
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Puneeth Manoj Sai - Front-End &amp; Full Stack Engineer">
 <defs>
-  <linearGradient id="bg-light" x1="0" y1="0" x2="1" y2="1">
+  <linearGradient id="hero-bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#ffffff"/>
-    <stop offset="35%" stop-color="#f8fafc"/>
-    <stop offset="75%" stop-color="#f0f9ff"/>
+    <stop offset="40%" stop-color="#f8fafc"/>
+    <stop offset="80%" stop-color="#f0f9ff"/>
     <stop offset="100%" stop-color="#e0f2fe"/>
   </linearGradient>
-  <linearGradient id="tx-dark" x1="0" x2="1">
+
+  <linearGradient id="hero-tx" x1="0" x2="1">
     <stop offset="0%" stop-color="#0f172a"/>
     <stop offset="60%" stop-color="#1e3a8a"/>
     <stop offset="100%" stop-color="#0284c7"/>
   </linearGradient>
-  <linearGradient id="bar-grad" x1="0" y1="0" x2="0" y2="1">
+
+  <linearGradient id="bar-accent" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#0284c7"/>
     <stop offset="50%" stop-color="#6366f1"/>
     <stop offset="100%" stop-color="#a855f7"/>
   </linearGradient>
-  <radialGradient id="glow-light">
-    <stop offset="0%" stop-color="#0284c7" stop-opacity=".18"/>
-    <stop offset="60%" stop-color="#38bdf8" stop-opacity=".06"/>
+
+  <!-- React Bits Radial Spotlight -->
+  <radialGradient id="spotlight-hero" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12"/>
+    <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.03"/>
     <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
   </radialGradient>
-  <filter id="card-shadow" x="-10%" y="-20%" width="120%" height="150%">
-    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.08"/>
+
+  <filter id="hero-card-sh" x="-10%" y="-15%" width="120%" height="135%">
+    <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.04"/>
   </filter>
-  <clipPath id="c-banner"><rect width="1200" height="380" rx="20"/></clipPath>
+
+  <pattern id="hero-grid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#0284c7" stroke-opacity="0.05" stroke-width="1"/>
+  </pattern>
+
+  <clipPath id="hero-clip"><rect width="1200" height="380" rx="20"/></clipPath>
 </defs>
-<g clip-path="url(#c-banner)">
-  <rect width="1200" height="380" fill="url(#bg-light)" stroke="#cbd5e1" stroke-width="1.8"/>
+
+<g clip-path="url(#hero-clip)">
+  <!-- Background Canvas -->
+  <rect width="1200" height="380" fill="url(#hero-bg)" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect width="1200" height="380" fill="url(#hero-grid)"/>
   
-  <!-- Subtle Blueprint Grid -->
-  <g stroke="#0284c7" stroke-opacity=".05" stroke-width="1">
-    <line x1="0" y1="0" x2="0" y2="380"/><line x1="40" y1="0" x2="40" y2="380"/><line x1="80" y1="0" x2="80" y2="380"/><line x1="120" y1="0" x2="120" y2="380"/><line x1="160" y1="0" x2="160" y2="380"/><line x1="200" y1="0" x2="200" y2="380"/><line x1="240" y1="0" x2="240" y2="380"/><line x1="280" y1="0" x2="280" y2="380"/><line x1="320" y1="0" x2="320" y2="380"/><line x1="360" y1="0" x2="360" y2="380"/><line x1="400" y1="0" x2="400" y2="380"/><line x1="440" y1="0" x2="440" y2="380"/><line x1="480" y1="0" x2="480" y2="380"/><line x1="520" y1="0" x2="520" y2="380"/><line x1="560" y1="0" x2="560" y2="380"/><line x1="600" y1="0" x2="600" y2="380"/><line x1="640" y1="0" x2="640" y2="380"/><line x1="680" y1="0" x2="680" y2="380"/><line x1="720" y1="0" x2="720" y2="380"/><line x1="760" y1="0" x2="760" y2="380"/><line x1="800" y1="0" x2="800" y2="380"/><line x1="840" y1="0" x2="840" y2="380"/><line x1="880" y1="0" x2="880" y2="380"/><line x1="920" y1="0" x2="920" y2="380"/><line x1="960" y1="0" x2="960" y2="380"/><line x1="1000" y1="0" x2="1000" y2="380"/><line x1="1040" y1="0" x2="1040" y2="380"/><line x1="1080" y1="0" x2="1080" y2="380"/><line x1="1120" y1="0" x2="1120" y2="380"/><line x1="1160" y1="0" x2="1160" y2="380"/>
-    <line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="40" x2="1200" y2="40"/><line x1="0" y1="80" x2="1200" y2="80"/><line x1="0" y1="120" x2="1200" y2="120"/><line x1="0" y1="160" x2="1200" y2="160"/><line x1="0" y1="200" x2="1200" y2="200"/><line x1="0" y1="240" x2="1200" y2="240"/><line x1="0" y1="280" x2="1200" y2="280"/><line x1="0" y1="320" x2="1200" y2="320"/><line x1="0" y1="360" x2="1200" y2="360"/>
+  <!-- Ambient Spotlight Glows -->
+  <circle cx="260" cy="180" r="300" fill="url(#spotlight-hero)"/>
+  <circle cx="950" cy="190" r="280" fill="url(#spotlight-hero)"/>
+
+  <!-- Left Highlight Accent Bar -->
+  <rect x="0" y="0" width="7" height="380" fill="url(#bar-accent)"/>
+
+  <!-- ==================== LEFT COLUMN: HERO IDENTITY ==================== -->
+  <!-- React Bits Shiny Badge -->
+  <g transform="translate(60, 42)">
+    <rect width="200" height="28" rx="14" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <circle cx="14" cy="14" r="3.5" fill="#0284c7">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="26" y="18" font-family="'Fira Code',monospace" font-size="11.5" font-weight="700" fill="#0369a1" letter-spacing="1">FULL-STACK ENGINEER</text>
   </g>
 
-  <!-- Glowing Aura for 3D Geometry -->
-  <circle cx="960" cy="190" r="220" fill="url(#glow-light)">
-    <animate attributeName="r" values="190;240;190" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <ellipse cx="960" cy="190" rx="210" ry="60" fill="none" stroke="#0284c7" stroke-opacity=".35" stroke-dasharray="4 8">
-    <animate attributeName="stroke-dashoffset" values="0;-96" dur="6s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="960" cy="190" rx="250" ry="84" fill="none" stroke="#8b5cf6" stroke-opacity=".3" stroke-dasharray="4 10"/>
+  <!-- Name -->
+  <text x="60" y="122" font-family="Inter,-apple-system,sans-serif" font-size="58" font-weight="900" fill="url(#hero-tx)">Puneeth Manoj Sai</text>
+  
+  <!-- Subtitle -->
+  <text x="60" y="162" font-family="Inter,-apple-system,sans-serif" font-size="21" fill="#475569" font-weight="600">Building production-ready web systems, cloud infrastructure &amp; Web3.</text>
 
-  <!-- 3D Polyhedral Sphere -->
-  {polys_light}
-
-  <!-- Orbiting Satellites -->
-  <circle r="4.5" fill="#0284c7"><animateMotion dur="9s" repeatCount="indefinite" begin="-0s" path="M750,190 a210,60 0 1,0 420,0 a210,60 0 1,0 -420,0"/></circle>
-  <circle r="5.5" fill="#8b5cf6"><animateMotion dur="13s" repeatCount="indefinite" begin="-3s" path="M710,190 a250,84 0 1,0 500,0 a250,84 0 1,0 -500,0"/></circle>
-  <circle r="5" fill="#10b981"><animateMotion dur="7s" repeatCount="indefinite" begin="-6s" path="M780,190 a180,40 0 1,0 360,0 a180,40 0 1,0 -360,0"/></circle>
-
-  <!-- Left Accent Bar -->
-  <rect x="0" y="0" width="8" height="380" fill="url(#bar-grad)"/>
-
-  <!-- Left Content -->
-  <text x="62" y="86" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="#0284c7" letter-spacing="3">HELLO WORLD, I'M</text>
-  <text x="62" y="158" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="68" font-weight="900" fill="url(#tx-dark)">Puneeth Manoj Sai</text>
-  <text x="64" y="198" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="25" fill="#475569" font-weight="600">Front-End &amp; Full Stack Engineer  ·  Web3  ·  Security</text>
-
-  <!-- Animated Rotating Typewriter -->
-  <g>
-    <clipPath id="t0"><rect x="64" y="228" height="34" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.0000;0.0875;0.2350;0.2500;1" values="0;0;462;462;0;0"/></rect></clipPath>
-    <text x="64" y="252" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="19" font-weight="700" fill="#0369a1" clip-path="url(#t0)">React · Next.js · TypeScript · Node.js</text>
-    <rect x="64" y="232" width="2.5" height="24" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.0000;0.0875;0.2350;0.2500;1" values="64;64;526;526;64;64"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
-  </g>
-  <g>
-    <clipPath id="t1"><rect x="64" y="228" height="34" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.2500;0.3375;0.4850;0.5000;1" values="0;0;402;402;0;0"/></rect></clipPath>
-    <text x="64" y="252" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="19" font-weight="700" fill="#0369a1" clip-path="url(#t1)">Web3 · Solidity · IPFS · Algorand</text>
-    <rect x="64" y="232" width="2.5" height="24" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.2500;0.3375;0.4850;0.5000;1" values="64;64;466;466;64;64"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
-  </g>
-  <g>
-    <clipPath id="t2"><rect x="64" y="228" height="34" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.5000;0.5875;0.7350;0.7500;1" values="0;0;438;438;0;0"/></rect></clipPath>
-    <text x="64" y="252" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="19" font-weight="700" fill="#0369a1" clip-path="url(#t2)">AES-256 · AWS KMS · Secure by design</text>
-    <rect x="64" y="232" width="2.5" height="24" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.5000;0.5875;0.7350;0.7500;1" values="64;64;502;502;64;64"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
-  </g>
-  <g>
-    <clipPath id="t3"><rect x="64" y="228" height="34" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.7500;0.8375;0.9850;1.0000;1" values="0;0;486;486;0;0"/></rect></clipPath>
-    <text x="64" y="252" font-family="'Fira Code',Consolas,'Courier New',monospace" font-size="19" font-weight="700" fill="#0369a1" clip-path="url(#t3)">Provisional Patent Filed · AWS Certified</text>
-    <rect x="64" y="232" width="2.5" height="24" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.7500;0.8375;0.9850;1.0000;1" values="64;64;550;550;64;64"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+  <!-- Animated Dynamic Rotating Terminal Pill (React Bits Style) -->
+  <g transform="translate(60, 192)">
+    <rect width="520" height="42" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#hero-card-sh)"/>
+    <text x="20" y="26" font-family="'Fira Code',monospace" font-size="14" font-weight="700" fill="#0284c7">➜</text>
+    
+    <g>
+      <clipPath id="ht0"><rect x="42" y="6" height="30" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.0000;0.0875;0.2350;0.2500;1" values="0;0;450;450;0;0"/></rect></clipPath>
+      <text x="42" y="26" font-family="'Fira Code',monospace" font-size="14" font-weight="600" fill="#0f172a" clip-path="url(#ht0)">React.js · Next.js · TypeScript · Tailwind CSS</text>
+      <rect x="42" y="11" width="2" height="20" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.0000;0.0875;0.2350;0.2500;1" values="42;42;470;470;42;42"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+    </g>
+    <g>
+      <clipPath id="ht1"><rect x="42" y="6" height="30" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.2500;0.3375;0.4850;0.5000;1" values="0;0;450;450;0;0"/></rect></clipPath>
+      <text x="42" y="26" font-family="'Fira Code',monospace" font-size="14" font-weight="600" fill="#0f172a" clip-path="url(#ht1)">AWS Certified Solutions Architect &amp; Cloud Practitioner</text>
+      <rect x="42" y="11" width="2" height="20" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.2500;0.3375;0.4850;0.5000;1" values="42;42;470;470;42;42"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+    </g>
+    <g>
+      <clipPath id="ht2"><rect x="42" y="6" height="30" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.5000;0.5875;0.7350;0.7500;1" values="0;0;450;450;0;0"/></rect></clipPath>
+      <text x="42" y="26" font-family="'Fira Code',monospace" font-size="14" font-weight="600" fill="#0f172a" clip-path="url(#ht2)">Solidity · IPFS · AES-256 Envelope Encryption</text>
+      <rect x="42" y="11" width="2" height="20" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.5000;0.5875;0.7350;0.7500;1" values="42;42;440;440;42;42"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+    </g>
+    <g>
+      <clipPath id="ht3"><rect x="42" y="6" height="30" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.7500;0.8375;0.9850;1.0000;1" values="0;0;450;450;0;0"/></rect></clipPath>
+      <text x="42" y="26" font-family="'Fira Code',monospace" font-size="14" font-weight="600" fill="#0f172a" clip-path="url(#ht3)">Provisional Patent Filed (2025) · Research (2026)</text>
+      <rect x="42" y="11" width="2" height="20" fill="#0284c7"><animate attributeName="x" dur="16s" repeatCount="indefinite" keyTimes="0;0.7500;0.8375;0.9850;1.0000;1" values="42;42;460;460;42;42"/><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+    </g>
   </g>
 
-  <!-- Interactive Light Badges -->
-  <g transform="translate(64, 296)" filter="url(#card-shadow)">
-    <rect width="138" height="36" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
-    <circle cx="16" cy="18" r="4.5" fill="#10b981"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
-    <text x="30" y="23" font-size="13.5" font-weight="700" fill="#0f172a" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif">Patent Filed</text>
+  <!-- 4 Spotlight Micro Badges -->
+  <g transform="translate(60, 260)">
+    <g transform="translate(0, 0)">
+      <rect width="124" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <circle cx="16" cy="17" r="4" fill="#10b981"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="28" y="22" font-size="13" font-weight="700" fill="#0f172a" font-family="Inter,sans-serif">Patent Filed</text>
+    </g>
+    <g transform="translate(136, 0)">
+      <rect width="148" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <circle cx="16" cy="17" r="4" fill="#0284c7"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="28" y="22" font-size="13" font-weight="700" fill="#0f172a" font-family="Inter,sans-serif">AWS Certified x2</text>
+    </g>
+    <g transform="translate(296, 0)">
+      <rect width="158" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <circle cx="16" cy="17" r="4" fill="#8b5cf6"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="28" y="22" font-size="13" font-weight="700" fill="#0f172a" font-family="Inter,sans-serif">800+ Users Served</text>
+    </g>
+    <g transform="translate(466, 0)">
+      <rect width="114" height="34" rx="17" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+      <circle cx="16" cy="17" r="4" fill="#f59e0b"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="28" y="22" font-size="13" font-weight="700" fill="#0f172a" font-family="Inter,sans-serif">Tech Lead</text>
+    </g>
   </g>
-  <g transform="translate(214, 296)" filter="url(#card-shadow)">
-    <rect width="168" height="36" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
-    <circle cx="16" cy="18" r="4.5" fill="#0284c7"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
-    <text x="30" y="23" font-size="13.5" font-weight="700" fill="#0f172a" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif">AWS Certified x2</text>
-  </g>
-  <g transform="translate(394, 296)" filter="url(#card-shadow)">
-    <rect width="178" height="36" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
-    <circle cx="16" cy="18" r="4.5" fill="#8b5cf6"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
-    <text x="30" y="23" font-size="13.5" font-weight="700" fill="#0f172a" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif">800+ users served</text>
-  </g>
-  <g transform="translate(584, 296)" filter="url(#card-shadow)">
-    <rect width="122" height="36" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
-    <circle cx="16" cy="18" r="4.5" fill="#f59e0b"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
-    <text x="30" y="23" font-size="13.5" font-weight="700" fill="#0f172a" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif">Tech Lead</text>
+
+  <!-- ==================== RIGHT COLUMN: REACT BITS INTERACTIVE TERMINAL CARD ==================== -->
+  <g transform="translate(680, 42)" filter="url(#hero-card-sh)">
+    <rect width="470" height="296" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="0" y="0" width="470" height="4" rx="2" fill="url(#bar-accent)"/>
+    
+    <!-- Header of Deck -->
+    <g transform="translate(20, 18)">
+      <circle cx="6" cy="8" r="4" fill="#ff5f56"/>
+      <circle cx="20" cy="8" r="4" fill="#ffbd2e"/>
+      <circle cx="34" cy="8" r="4" fill="#27c93f"/>
+      <text x="60" y="12" font-family="'Fira Code',monospace" font-size="11.5" font-weight="700" fill="#64748b">engineer.config.ts</text>
+      <rect x="360" y="0" width="70" height="18" rx="9" fill="#ecfdf5"/>
+      <text x="395" y="13" text-anchor="middle" font-family="'Fira Code',monospace" font-size="9.5" font-weight="700" fill="#047857">ACTIVE</text>
+    </g>
+    <line x1="0" y1="42" x2="470" y2="42" stroke="#f1f5f9" stroke-width="1.2"/>
+
+    <!-- Code Block representation in React Bits style -->
+    <g transform="translate(20, 64)" font-family="'Fira Code',Consolas,monospace" font-size="12.5" font-weight="600">
+      <text x="0" y="0" fill="#64748b"><tspan fill="#7c3aed">const</tspan> engineer <tspan fill="#0284c7">=</tspan> {</text>
+      <text x="18" y="24" fill="#0f172a">name: <tspan fill="#059669">'Puneeth Manoj Sai'</tspan>,</text>
+      <text x="18" y="48" fill="#0f172a">role: <tspan fill="#059669">'Software Engineer'</tspan>,</text>
+      <text x="18" y="72" fill="#0f172a">university: <tspan fill="#059669">'KL University, Hyderabad'</tspan>,</text>
+      <text x="18" y="96" fill="#0f172a">certifications: [<tspan fill="#d97706">'AWS-SAA'</tspan>, <tspan fill="#d97706">'AWS-CP'</tspan>, <tspan fill="#d97706">'MongoDB'</tspan>],</text>
+      <text x="18" y="120" fill="#0f172a">patent: <tspan fill="#0284c7">'Ojas Raksha Consent Architecture'</tspan>,</text>
+      <text x="18" y="144" fill="#0f172a">status: <tspan fill="#10b981">'Open to Internships &amp; Roles'</tspan></text>
+      <text x="0" y="168" fill="#64748b">};</text>
+    </g>
+
+    <!-- Bottom Beam Pulse Bar -->
+    <g transform="translate(20, 252)">
+      <rect width="430" height="28" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="14" y="18" font-family="'Fira Code',monospace" font-size="11" font-weight="700" fill="#0284c7">STACK BUS:</text>
+      <text x="96" y="18" font-family="Inter,sans-serif" font-size="11.5" font-weight="700" fill="#334155">React 18 · Next.js · Node.js · AWS · Solidity · IPFS</text>
+    </g>
   </g>
 </g>
 </svg>'''
 
 def generate_metrics():
+    # 2D React Bits Spotlight Metric Cards (1200x170)
     metrics = [
         {"val": "800+", "title": "user interactions", "sub": "IEEE branch website", "color": "#0284c7", "x": 0, "dur": "5.0s"},
         {"val": "300+", "title": "GitHub commits", "sub": "high-velocity builder", "color": "#0d9488", "x": 204, "dur": "5.4s"},
@@ -350,7 +382,6 @@ def generate_ojas_architecture():
 </svg>'''
 
 def generate_stack():
-    # 6 Categorized stack cards in light mode
     return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 510" width="1200" height="510" role="img" aria-label="Tech stack by category">
 <defs>
   <filter id="st-sh" x="-10%" y="-10%" width="120%" height="130%">

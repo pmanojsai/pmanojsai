@@ -1,27 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="Browser window: https://puneethmanojsai.vercel.app">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="Browser Navigation Bar">
 <defs>
-  <linearGradient id="bb-line" x1="0" x2="1">
+  <linearGradient id="bb-sweep" x1="0" x2="1">
     <stop offset="0" stop-color="#0284c7" stop-opacity="0"/>
     <stop offset=".5" stop-color="#0284c7"/>
     <stop offset="1" stop-color="#0284c7" stop-opacity="0"/>
   </linearGradient>
-  <filter id="bb-shadow" x="-5%" y="-10%" width="110%" height="130%">
-    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.06"/>
+  <filter id="rb-sh" x="-5%" y="-10%" width="110%" height="130%">
+    <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.05"/>
   </filter>
 </defs>
 <path d="M0 52 V16 Q0 0 16 0 H1184 Q1200 0 1200 16 V52 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2"/>
 <!-- Window Traffic Controls -->
-<circle cx="28" cy="26" r="6.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.8"/>
-<circle cx="50" cy="26" r="6.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.8"/>
-<circle cx="72" cy="26" r="6.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.8"/>
-<!-- Address Capsule -->
-<rect x="106" y="10" width="988" height="32" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#bb-shadow)"/>
-<!-- Lock Icon -->
-<path d="M128 22 a4.5 4.5 0 0 1 9 0 v3 h-9z M125 25 h15 v10 h-15z" fill="#10b981" transform="translate(0,-1) scale(0.95)"/>
-<text x="154" y="31" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#334155">https://puneethmanojsai.vercel.app</text>
+<circle cx="28" cy="26" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.7"/>
+<circle cx="48" cy="26" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.7"/>
+<circle cx="68" cy="26" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.7"/>
+<!-- Address Capsule (React Bits Spotlight Style) -->
+<rect x="96" y="10" width="1008" height="32" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2" filter="url(#rb-sh)"/>
+<path d="M118 22 a4.5 4.5 0 0 1 9 0 v3 h-9z M115 25 h15 v10 h-15z" fill="#10b981" transform="translate(0,-1) scale(0.95)"/>
+<text x="142" y="31" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" font-weight="600" fill="#334155">https://puneethmanojsai.vercel.app</text>
 <!-- Live Status Pill -->
-<g transform="translate(1096, 12)">
-  <rect width="84" height="28" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+<g transform="translate(1106, 12)">
+  <rect width="78" height="28" rx="14" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
   <circle cx="16" cy="14" r="4" fill="#10b981">
     <animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/>
   </circle>
@@ -29,7 +28,7 @@
 </g>
 <!-- Hairline Scanner -->
 <rect x="0" y="50" width="1200" height="2" fill="#e2e8f0"/>
-<rect x="-300" y="50" width="300" height="2" fill="url(#bb-line)">
+<rect x="-300" y="50" width="300" height="2" fill="url(#bb-sweep)">
   <animate attributeName="x" values="-300;1200" dur="3.5s" repeatCount="indefinite"/>
 </rect>
 </svg>
